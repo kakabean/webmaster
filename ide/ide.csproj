@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E1F0A0F6-0BBB-458D-BF06-13EC8C81C6AB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ide</RootNamespace>
+    <AssemblyName>MayiIDE</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>editor.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="editor\Canvas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\Canvas.designer.cs">
+      <DependentUpon>Canvas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\commands\DeleteConnectionCommand.cs" />
+    <Compile Include="editor\commands\DeleteNodeViewCommand.cs" />
+    <Compile Include="editor\commands\ICommand.cs" />
+    <Compile Include="editor\DiagramManager.cs" />
+    <Compile Include="editor\DiagramUtil.cs" />
+    <Compile Include="editor\FlowEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\FlowEditor.Designer.cs">
+      <DependentUpon>FlowEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\FlowPropViewManager.cs" />
+    <Compile Include="editor\mapping\IMappingSrc.cs" />
+    <Compile Include="editor\mapping\MappingParamSelectionDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editor\mapping\MappingParamSelectionDlg.Designer.cs">
+      <DependentUpon>MappingParamSelectionDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\mapping\MSConstantPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\mapping\MSConstantPanel.Designer.cs">
+      <DependentUpon>MSConstantPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\mapping\MSExpressionPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\mapping\MSExpressionPanel.Designer.cs">
+      <DependentUpon>MSExpressionPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\mapping\MSGFPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\mapping\MSGFPanel.Designer.cs">
+      <DependentUpon>MSGFPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\mapping\MSParamPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\mapping\MSParamPanel.Designer.cs">
+      <DependentUpon>MSParamPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\mapping\MSWEAPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\mapping\MSWEAPanel.Designer.cs">
+      <DependentUpon>MSWEAPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\mapping\ParamMappingDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editor\mapping\ParamMappingDlg.Designer.cs">
+      <DependentUpon>ParamMappingDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\NodeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\NodeView.designer.cs">
+      <DependentUpon>NodeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\propview\BaseElemPropView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\propview\BaseElemPropView.Designer.cs">
+      <DependentUpon>BaseElemPropView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\propview\ConditionInputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editor\propview\ConditionInputDialog.Designer.cs">
+      <DependentUpon>ConditionInputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\propview\ConPropView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\propview\ConPropView.Designer.cs">
+      <DependentUpon>ConPropView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\propview\ParamListDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editor\propview\ParamListDialog.Designer.cs">
+      <DependentUpon>ParamListDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\propview\OpParamDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editor\propview\OpParamDialog.Designer.cs">
+      <DependentUpon>OpParamDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\propview\ParamPropView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\propview\ParamPropView.Designer.cs">
+      <DependentUpon>ParamPropView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\propview\ErrorLogPropView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\propview\ErrorLogPropView.Designer.cs">
+      <DependentUpon>ErrorLogPropView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\propview\IPropView.cs" />
+    <Compile Include="editor\propview\OperationPropView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\propview\OperationPropView.Designer.cs">
+      <DependentUpon>OperationPropView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\propview\RuleEditDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editor\propview\RuleEditDialog.Designer.cs">
+      <DependentUpon>RuleEditDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\propview\RulePropView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\propview\RulePropView.Designer.cs">
+      <DependentUpon>RulePropView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\propview\UserLogComponent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\propview\UserLogComponent.Designer.cs">
+      <DependentUpon>UserLogComponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\propview\UserLogItemDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editor\propview\UserLogItemDialog.Designer.cs">
+      <DependentUpon>UserLogItemDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\propview\UserLogPropView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editor\propview\UserLogPropView.Designer.cs">
+      <DependentUpon>UserLogPropView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\propview\WEAPValuesEditDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editor\propview\WEAPValuesEditDlg.Designer.cs">
+      <DependentUpon>WEAPValuesEditDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\propview\WebElementAdvancedEditDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editor\propview\WebElementAdvancedEditDlg.Designer.cs">
+      <DependentUpon>WebElementAdvancedEditDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editor\propview\WEListDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editor\propview\WEListDialog.Designer.cs">
+      <DependentUpon>WEListDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UILangUtil.cs" />
+    <Compile Include="ui\DebugPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\DebugPanel.Designer.cs">
+      <DependentUpon>DebugPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Events.cs" />
+    <Compile Include="ui\IWEPropView.cs" />
+    <Compile Include="ui\PropViewManager.cs" />
+    <Compile Include="ui\ScriptAdvancedConfigView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\ScriptAdvancedConfigView.Designer.cs">
+      <DependentUpon>ScriptAdvancedConfigView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\WebElementPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\WebElementPanel.Designer.cs">
+      <DependentUpon>WebElementPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\WEProcAttrView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\WEProcAttrView.Designer.cs">
+      <DependentUpon>WEProcAttrView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\WEProcImageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\WEProcImageView.Designer.cs">
+      <DependentUpon>WEProcImageView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\WEPropCodeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\WEPropCodeView.Designer.cs">
+      <DependentUpon>WEPropCodeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\WMEnums.cs" />
+    <Compile Include="WMEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMEditor.Designer.cs">
+      <DependentUpon>WMEditor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="editor\Canvas.resx">
+      <DependentUpon>Canvas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\FlowEditor.resx">
+      <DependentUpon>FlowEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\FlowEditor.zh-CN.resx">
+      <DependentUpon>FlowEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\mapping\MappingParamSelectionDlg.resx">
+      <DependentUpon>MappingParamSelectionDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\mapping\MSConstantPanel.resx">
+      <DependentUpon>MSConstantPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\mapping\MSConstantPanel.zh-CN.resx">
+      <DependentUpon>MSConstantPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\mapping\MSExpressionPanel.resx">
+      <DependentUpon>MSExpressionPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\mapping\MSExpressionPanel.zh-CN.resx">
+      <DependentUpon>MSExpressionPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\mapping\MSGFPanel.resx">
+      <DependentUpon>MSGFPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\mapping\MSGFPanel.zh-CN.resx">
+      <DependentUpon>MSGFPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\mapping\MSParamPanel.resx">
+      <DependentUpon>MSParamPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\mapping\MSParamPanel.zh-CN.resx">
+      <DependentUpon>MSParamPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\mapping\MSWEAPanel.resx">
+      <DependentUpon>MSWEAPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\mapping\MSWEAPanel.zh-CN.resx">
+      <DependentUpon>MSWEAPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\mapping\ParamMappingDlg.resx">
+      <DependentUpon>ParamMappingDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\mapping\ParamMappingDlg.zh-CN.resx">
+      <DependentUpon>ParamMappingDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\NodeView.resx">
+      <DependentUpon>NodeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\BaseElemPropView.resx">
+      <DependentUpon>BaseElemPropView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\BaseElemPropView.zh-CN.resx">
+      <DependentUpon>BaseElemPropView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\ConditionInputDialog.resx">
+      <DependentUpon>ConditionInputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\ConditionInputDialog.zh-CN.resx">
+      <DependentUpon>ConditionInputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\ConPropView.resx">
+      <DependentUpon>ConPropView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\ConPropView.zh-CN.resx">
+      <DependentUpon>ConPropView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\ParamListDialog.resx">
+      <DependentUpon>ParamListDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\ParamListDialog.zh-CN.resx">
+      <DependentUpon>ParamListDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\ErrorLogPropView.zh-CN.resx">
+      <DependentUpon>ErrorLogPropView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\OperationPropView.zh-CN.resx">
+      <DependentUpon>OperationPropView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\OpParamDialog.resx">
+      <DependentUpon>OpParamDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\OpParamDialog.zh-CN.resx">
+      <DependentUpon>OpParamDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\ParamPropView.resx">
+      <DependentUpon>ParamPropView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\ErrorLogPropView.resx">
+      <DependentUpon>ErrorLogPropView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\OperationPropView.resx">
+      <DependentUpon>OperationPropView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\ParamPropView.zh-CN.resx">
+      <DependentUpon>ParamPropView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\RuleEditDialog.resx">
+      <DependentUpon>RuleEditDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\RuleEditDialog.zh-CN.resx">
+      <DependentUpon>RuleEditDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\RulePropView.resx">
+      <DependentUpon>RulePropView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\RulePropView.zh-CN.resx">
+      <DependentUpon>RulePropView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\UserLogComponent.resx">
+      <DependentUpon>UserLogComponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\UserLogComponent.zh-CN.resx">
+      <DependentUpon>UserLogComponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\UserLogItemDialog.resx">
+      <DependentUpon>UserLogItemDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\UserLogItemDialog.zh-CN.resx">
+      <DependentUpon>UserLogItemDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\UserLogPropView.resx">
+      <DependentUpon>UserLogPropView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\UserLogPropView.zh-CN.resx">
+      <DependentUpon>UserLogPropView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\WEAPValuesEditDlg.resx">
+      <DependentUpon>WEAPValuesEditDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\WEAPValuesEditDlg.zh-CN.resx">
+      <DependentUpon>WEAPValuesEditDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\WebElementAdvancedEditDlg.resx">
+      <DependentUpon>WebElementAdvancedEditDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\WebElementAdvancedEditDlg.zh-CN.resx">
+      <DependentUpon>WebElementAdvancedEditDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\WEListDialog.resx">
+      <DependentUpon>WEListDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editor\propview\WEListDialog.zh-CN.resx">
+      <DependentUpon>WEListDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lang\UIResource.en-US.resx" />
+    <EmbeddedResource Include="lang\UIResource.zh-CN.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ui\DebugPanel.resx">
+      <DependentUpon>DebugPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\DebugPanel.zh-CN.resx">
+      <DependentUpon>DebugPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\ScriptAdvancedConfigView.resx">
+      <DependentUpon>ScriptAdvancedConfigView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\WebElementPanel.resx">
+      <DependentUpon>WebElementPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\WebElementPanel.zh-CN.resx">
+      <DependentUpon>WebElementPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\WEProcAttrView.resx">
+      <DependentUpon>WEProcAttrView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\WEProcAttrView.zh-CN.resx">
+      <DependentUpon>WEProcAttrView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\WEProcImageView.resx">
+      <DependentUpon>WEProcImageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\WEPropCodeView.resx">
+      <DependentUpon>WEPropCodeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMEditor.resx">
+      <DependentUpon>WMEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMEditor.zh-CN.resx">
+      <DependentUpon>WMEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com\com.csproj">
+      <Project>{E4785199-6D30-4541-8754-2685392CBA2D}</Project>
+      <Name>com</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\lib\lib.csproj">
+      <Project>{3841DA57-C0C0-4BB1-A4F2-96FA12AC0652}</Project>
+      <Name>lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSHTML">
+      <Guid>{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}</Guid>
+      <VersionMajor>4</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cursor16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\object16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\string16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="editor.ico" />
+    <None Include="Resources\con_Input_S16.png" />
+    <None Include="Resources\con_Input_P16.png" />
+    <None Include="Resources\con_Input_N16.png" />
+    <None Include="Resources\con_Input_E16.png" />
+    <None Include="Resources\con_Input_A16.png" />
+    <None Include="Resources\userOnline16.png" />
+    <None Include="Resources\userOffline16.png" />
+    <None Include="Resources\publish16.png" />
+    <None Include="Resources\run_script16.gif" />
+    <None Include="Resources\gf_cmd16.gif" />
+    <None Include="Resources\gf_category16.gif" />
+    <None Include="Resources\loading16.gif" />
+    <None Include="Resources\dbg_stop16.gif" />
+    <None Include="Resources\wegrp16.gif" />
+    <None Include="Resources\wegrp_warn16.gif" />
+    <None Include="Resources\wegrp_err16.gif" />
+    <None Include="Resources\web_elem16.gif" />
+    <None Include="Resources\web_elem_warn16.gif" />
+    <None Include="Resources\web_elem_err16.gif" />
+    <None Include="Resources\we_nav16.png" />
+    <None Include="Resources\we_location16.png" />
+    <None Include="Resources\we_image16.png" />
+    <None Include="Resources\we_confirm16.png" />
+    <None Include="Resources\we_color16.png" />
+    <None Include="Resources\we_check16.png" />
+    <None Include="Resources\we_capture16.png" />
+    <None Include="Resources\we_attr16.png" />
+    <None Include="Resources\warn_ovr.gif" />
+    <None Include="Resources\time16.gif" />
+    <None Include="Resources\settings16.png" />
+    <None Include="Resources\script16.png" />
+    <None Include="Resources\script_warn16.png" />
+    <None Include="Resources\script_err16.png" />
+    <None Include="Resources\save16.png" />
+    <None Include="Resources\run16.gif" />
+    <None Include="Resources\restoreSize16.gif" />
+    <None Include="Resources\refresh16.png" />
+    <None Include="Resources\paramgrp16.gif" />
+    <None Include="Resources\paramgrp_warn16.gif" />
+    <None Include="Resources\paramgrp_err16.gif" />
+    <None Include="Resources\param16.gif" />
+    <None Include="Resources\param_warn16.gif" />
+    <None Include="Resources\param_string16.png" />
+    <None Include="Resources\param_object16.png" />
+    <None Include="Resources\param_err16.gif" />
+    <None Include="Resources\op_url16.png" />
+    <None Include="Resources\op_stop16.gif" />
+    <None Include="Resources\op_start16.gif" />
+    <None Include="Resources\op_process16.png" />
+    <None Include="Resources\op_nop16.gif" />
+    <None Include="Resources\op_link16.gif" />
+    <None Include="Resources\op_input16.gif" />
+    <None Include="Resources\op_click16.gif" />
+    <None Include="Resources\newmsg16.png" />
+    <None Include="Resources\newCategory16.png" />
+    <None Include="Resources\new16.png" />
+    <None Include="Resources\moveup16.png" />
+    <None Include="Resources\movedown16.png" />
+    <None Include="Resources\min16.png" />
+    <None Include="Resources\max16.gif" />
+    <None Include="Resources\max_maxd16.gif" />
+    <None Include="Resources\logView_Warn16.gif" />
+    <None Include="Resources\logView_Error16.gif" />
+    <None Include="Resources\load16.gif" />
+    <None Include="Resources\home16.png" />
+    <None Include="Resources\help16.png" />
+    <None Include="Resources\forward16.png" />
+    <None Include="Resources\error_ovr.gif" />
+    <None Include="Resources\edit16.gif" />
+    <None Include="Resources\delete16.png" />
+    <None Include="Resources\debug16.gif" />
+    <None Include="Resources\dbg_stepover16.gif" />
+    <None Include="Resources\dbg_stepinto16.gif" />
+    <None Include="Resources\congrp_or16.png" />
+    <None Include="Resources\congrp_or_not16.png" />
+    <None Include="Resources\congrp_or_not_err16.png" />
+    <None Include="Resources\congrp_or_err16.png" />
+    <None Include="Resources\congrp_and16.png" />
+    <None Include="Resources\congrp_and_not16.png" />
+    <None Include="Resources\congrp_and_not_err16.png" />
+    <None Include="Resources\congrp_and_err16.png" />
+    <None Include="Resources\condition_not16.png" />
+    <None Include="Resources\con16.png" />
+    <None Include="Resources\con_not16.png" />
+    <None Include="Resources\con_not_err16.png" />
+    <None Include="Resources\con_err16.png" />
+    <None Include="Resources\close16.png" />
+    <None Include="Resources\back16.png" />
+    <None Include="Resources\appupdate16.png" />
+    <None Include="Resources\addItem16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetDir)\$(TargetFileName)" "$(SolutionDir)\build"
+del /F/Q "$(SolutionDir)\build\en-US\MayiIDE.resources.dll"
+del /F/Q "$(SolutionDir)\build\zh-CN\MayiIDE.resources.dll"
+del /F/Q "$(SolutionDir)\build\editor.ico"
+copy "$(TargetDir)\en-US\MayiIDE.resources.dll" "$(SolutionDir)\build\en-US\"
+copy "$(TargetDir)\zh-CN\MayiIDE.resources.dll" "$(SolutionDir)\build\zh-CN\"
+copy "$(ProjectDir)\editor.ico" "$(SolutionDir)\build"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

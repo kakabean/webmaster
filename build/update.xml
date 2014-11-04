@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <Update>
+    <Description>Mayi Browser</Description>
+    <AppId>MayiTechGroup</AppId>
+    <URL>http://www.25mayi.com/update</URL>
+    <version>1.0.0.0</version>
+    <Files>
+      <File name="browser.exe" version="1.0.0.0"></File>
+      <File name="ide.exe" version="1.0.0.0"></File>
+      <File name="com.dll" version="1.0.0.0"></File>
+      <File name="lib.dll" version="1.0.0.0"></File>
+      <File name="en-US\com.resources.dll" version="1.0.0.0"></File>
+      <File name="en-US\lib.resources.dll" version="1.0.0.0"></File>
+      <File name="en-US\MayiBrowser.resources.dll" version="1.0.0.0"></File>
+      <File name="en-US\MayiIDE.resources.dll" version="1.0.0.0"></File>
+      <File name="en-US\update.resources.dll" version="1.0.0.0"></File>
+      <File name="zh-CN\com.resources.dll" version="1.0.0.0"></File>
+      <File name="zh-CN\lib.resources.dll" version="1.0.0.0"></File>
+      <File name="zh-CN\MayiBrowser.resources.dll" version="1.0.0.0"></File>
+      <File name="zh-CN\MayiIDE.resources.dll" version="1.0.0.0"></File>
+      <File name="zh-CN\update.resources.dll" version="1.0.0.0"></File>
+    </Files>
+  </Update>
+</Config>

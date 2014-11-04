@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="main.debug.text1" xml:space="preserve">
+    <value>打开调试面板</value>
+  </data>
+  <data name="main.debug.text2" xml:space="preserve">
+    <value>打开网页元素抓取面板</value>
+  </data>
+  <data name="Rule.RestartScript.P0.Name" xml:space="preserve">
+    <value>重新运行脚本</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P1.1.Des" xml:space="preserve">
+    <value>最多等待超时时间，否则终止脚本</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P1.1.Name" xml:space="preserve">
+    <value>时间(毫秒)</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P1.Name" xml:space="preserve">
+    <value>等待超时</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P2.1.Des" xml:space="preserve">
+    <value>最多等待超时，然后跳转到指定操作</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P2.1.Name" xml:space="preserve">
+    <value>时间(毫秒)</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P2.2.Des" xml:space="preserve">
+    <value>超时后，自动跳转到指定操作</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P2.2.Name" xml:space="preserve">
+    <value>超时操作</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P2.Name" xml:space="preserve">
+    <value>等待跳转</value>
+  </data>
+  <data name="view.op.grp1.text1" xml:space="preserve">
+    <value>子流程</value>
+  </data>
+  <data name="view.op.grp2.text2" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="view.op.label3.text1" xml:space="preserve">
+    <value>网页元素</value>
+  </data>
+  <data name="view.op.label3.text2" xml:space="preserve">
+    <value>打开类型</value>
+  </data>
+  <data name="view.rule.dup.text" xml:space="preserve">
+    <value>操作或子流程上已存在一个相同的规则则</value>
+    <comment>duplicated rule warning box, text</comment>
+  </data>
+  <data name="view.rule.dup.title" xml:space="preserve">
+    <value>重复的规则</value>
+    <comment>duplicated rule warning box, title</comment>
+  </data>
+  <data name="dlg.conInput.value.text1" xml:space="preserve">
+    <value>属性参考值</value>
+    <comment>条件输入对话框，属性值标签文本</comment>
+  </data>
+  <data name="dlg.conInput.value.text2" xml:space="preserve">
+    <value>值</value>
+    <comment>其他对象文本</comment>
+  </data>
+  <data name="view.common.type.gen" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="view.common.type.Opc" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="view.common.type.ParamGrp" xml:space="preserve">
+    <value>参数组</value>
+  </data>
+  <data name="view.common.type.Script" xml:space="preserve">
+    <value>脚本</value>
+    <comment>常规属性页类型文字</comment>
+  </data>
+  <data name="view.common.type.WE" xml:space="preserve">
+    <value>网页元素</value>
+  </data>
+  <data name="view.common.type.WEG" xml:space="preserve">
+    <value>网页元素组</value>
+  </data>
+  <data name="view.we.attr.valid.text1" xml:space="preserve">
+    <value>元素名称不能为空</value>
+    <comment>WebAttributeProptires view validation msg</comment>
+  </data>
+  <data name="view.we.attr.valid.text2" xml:space="preserve">
+    <value>元素属性表为空，元素有误</value>
+  </data>
+  <data name="view.we.attr.valid.text3" xml:space="preserve">
+    <value>没有属性被选中，Tag标签是必选项。</value>
+  </data>
+  <data name="view.wea.ce.multiline" xml:space="preserve">
+    <value>文本框里有多行文本，请使用上下箭头键浏览</value>
+    <comment>When the cell editor text box is multilines, prompt text</comment>
+  </data>
+  <data name="view.weprop.capmsg.text1" xml:space="preserve">
+    <value>第</value>
+    <comment>WebElementProperties view errors msg text</comment>
+  </data>
+  <data name="view.weprop.capmsg.text2" xml:space="preserve">
+    <value>个</value>
+  </data>
+  <data name="view.weprop.capmsg.text3" xml:space="preserve">
+    <value>第一个</value>
+  </data>
+  <data name="view.weprop.capmsg.text4" xml:space="preserve">
+    <value>第二个</value>
+  </data>
+  <data name="view.weprop.capmsg.text5" xml:space="preserve">
+    <value>第三个</value>
+  </data>
+  <data name="view.weprop.capmsg.text6" xml:space="preserve">
+    <value>个元素找到，</value>
+  </data>
+  <data name="view.weprop.capmsg.text7" xml:space="preserve">
+    <value>被选中。</value>
+  </data>
+  <data name="view.weprop.capmsg.text8" xml:space="preserve">
+    <value>找到唯一的网页元素。</value>
+  </data>
+  <data name="view.weprop.capmsg.text9" xml:space="preserve">
+    <value>没有找到匹配的网页元素。</value>
+  </data>
+  <data name="view.weprop.submit.text" xml:space="preserve">
+    <value>错误，网页元素与原始数据中的元素重名</value>
+  </data>
+  <data name="view.weprop.submit.text1" xml:space="preserve">
+    <value>错误，网页元素与其父容器中的其他元素重名</value>
+  </data>
+  <data name="view.weprop.update.text" xml:space="preserve">
+    <value>选择一个新元素更新当前元素，或右键单击取消</value>
+  </data>
+  <data name="view.we.parent.errdlg.text" xml:space="preserve">
+    <value>查找父元素出错，请重新抓取并再试一次。</value>
+  </data>
+  <data name="view.we.parent.errdlg.title" xml:space="preserve">
+    <value>获取父元素出错</value>
+  </data>
+  <data name="view.we.parent.text" xml:space="preserve">
+    <value>没有找到父元素</value>
+  </data>
+  <data name="view.we.sibling.errdlg.text" xml:space="preserve">
+    <value>查找下一个并列元素出错，请重新抓取并再试一次。</value>
+  </data>
+  <data name="view.we.sibling.errdlg.title" xml:space="preserve">
+    <value>找并列元素出错</value>
+  </data>
+  <data name="view.we.sibling.text" xml:space="preserve">
+    <value>没有兄弟元素</value>
+  </data>
+  <data name="view.we.parent.errdlg.title1" xml:space="preserve">
+    <value>无效父元素</value>
+  </data>
+  <data name="view.we.parent.text1" xml:space="preserve">
+    <value>已经到达顶层父元素 !</value>
+  </data>
+  <data name="view.we.sibling.errdlg.text1" xml:space="preserve">
+    <value>查找下一个并列元素出错，请重新抓取并再试一次。</value>
+  </data>
+  <data name="view.we.sibling.errdlg.title1" xml:space="preserve">
+    <value>无效元素</value>
+  </data>
+  <data name="view.weprop.autoref.text1" xml:space="preserve">
+    <value>自动匹配合适的容器元素失败，请使用手动编辑模式。</value>
+  </data>
+  <data name="dlg.mapping.header.text1" xml:space="preserve">
+    <value>更新参数在</value>
+  </data>
+  <data name="dlg.mapping.header.text2" xml:space="preserve">
+    <value>流程跳转参数映射从</value>
+  </data>
+  <data name="dlg.mapping.header.text3" xml:space="preserve">
+    <value>到</value>
+  </data>
+  <data name="dlg.mapping.title.op" xml:space="preserve">
+    <value>子流程参数更新</value>
+    <comment>mapping dialog UI text locale</comment>
+  </data>
+  <data name="dlg.mapping.title.opc" xml:space="preserve">
+    <value>流程跳转参数映射</value>
+  </data>
+  <data name="mapping.src.const.err.msg1" xml:space="preserve">
+    <value>空值，请输入一个值。</value>
+    <comment>Mapping source panel error msg text</comment>
+  </data>
+  <data name="mapping.src.const.err.msg2" xml:space="preserve">
+    <value>错误，请输入一个有效数字。</value>
+  </data>
+  <data name="mapping.src.const.err.msg3" xml:space="preserve">
+    <value>映射源必须是字符串或者数字。</value>
+  </data>
+  <data name="mapping.src.wea.err.msg0" xml:space="preserve">
+    <value>没有找到合适的网页元素！</value>
+  </data>
+  <data name="mapping.src.wea.err.msg1" xml:space="preserve">
+    <value>属性元素为空！</value>
+  </data>
+  <data name="mapping.src.wea.err.msg2" xml:space="preserve">
+    <value>属性元素必须是一个数字！</value>
+  </data>
+  <data name="mapping.src.param.err.msg0" xml:space="preserve">
+    <value>无效的操作/子流程，请关闭对话框重新做映射。</value>
+  </data>
+  <data name="mapping.src.param.err.msg1" xml:space="preserve">
+    <value>映射的源参数为空。</value>
+  </data>
+  <data name="mapping.src.param.err.msg2" xml:space="preserve">
+    <value>参数必须为一个数字。</value>
+  </data>
+  <data name="mapping.src.exp.err.msg0" xml:space="preserve">
+    <value>执行映射出错，请关闭对话框重新做映射。</value>
+    <comment>Mapping source - Expression panel msg text</comment>
+  </data>
+  <data name="mapping.src.exp.err.msg1" xml:space="preserve">
+    <value>表达式未定义。</value>
+    <comment>Mapping source - Expression panel msg text</comment>
+  </data>
+  <data name="mapping.src.exp.err.msg2" xml:space="preserve">
+    <value>输入1必须是一个字符串。</value>
+    <comment>Mapping source - Expression panel msg text</comment>
+  </data>
+  <data name="mapping.src.exp.err.msg3" xml:space="preserve">
+    <value>输入2必须是一个字符串。</value>
+    <comment>Mapping source - Expression panel msg text</comment>
+  </data>
+  <data name="mapping.src.exp.err.msg4" xml:space="preserve">
+    <value>输入1必须是一个数字。</value>
+    <comment>Mapping source - Expression panel msg text</comment>
+  </data>
+  <data name="mapping.src.exp.err.msg5" xml:space="preserve">
+    <value>输入2必须是一个数字。</value>
+    <comment>Mapping source - Expression panel msg text</comment>
+  </data>
+  <data name="dlg.mapping.msg.dup" xml:space="preserve">
+    <value>重复映射，目标参数已经在当前映射中被使用。</value>
+    <comment>Parameter mapping dialog message text - duplicate</comment>
+  </data>
+  <data name="view.log.op.end.text" xml:space="preserve">
+    <value>操作完成日志</value>
+  </data>
+  <data name="view.log.proc.end.text" xml:space="preserve">
+    <value>子流程结束日志</value>
+  </data>
+  <data name="view.log.proc.start.text" xml:space="preserve">
+    <value>子流程开始日志</value>
+  </data>
+  <data name="view.log.selectobj.title" xml:space="preserve">
+    <value>选择一个日志元素</value>
+  </data>
+  <data name="view.log.time.text1" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="view.log.warn.label" xml:space="preserve">
+    <value>警告 ! </value>
+  </data>
+  <data name="view.log.warn.text" xml:space="preserve">
+    <value>确认删除当前操作的日志？</value>
+  </data>
+  <data name="view.log.item.newstr" xml:space="preserve">
+    <value>新字符串...</value>
+  </data>
+  <data name="mapping.src.gf.err.msg0" xml:space="preserve">
+    <value>执行映射出错，请关闭对话框重新做映射。</value>
+    <comment>Mapping source -GF panel msg text</comment>
+  </data>
+  <data name="mapping.src.gf.err.msg1" xml:space="preserve">
+    <value>方法未定义。</value>
+    <comment>Mapping source - GF panel msg text</comment>
+  </data>
+  <data name="mapping.src.gf.err.msg2" xml:space="preserve">
+    <value>方法返回值与所要求的类型不匹配。</value>
+    <comment>Mapping source - GF panel msg text</comment>
+  </data>
+  <data name="mapping.src.gf.err.msg3" xml:space="preserve">
+    <value>错误，有一个参数为空！</value>
+  </data>
+  <data name="dlg.mapping.valid.msg1" xml:space="preserve">
+    <value>没有选择映射条目。</value>
+  </data>
+  <data name="Rule.GotoOperation.P1.0.Des" xml:space="preserve">
+    <value>下一个将要执行的操作</value>
+  </data>
+  <data name="Rule.GotoOperation.P1.0.Name" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="Rule.GotoOperation.P1.Name" xml:space="preserve">
+    <value>跳转到下一个操作</value>
+  </data>
+  <data name="app.name.text" xml:space="preserve">
+    <value>蚂蚁脚本IDE</value>
+  </data>
+  <data name="app.user.no.login" xml:space="preserve">
+    <value>未登录</value>
+  </data>
+  <data name="user.login.text1" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="user.logout.text1" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="dlg.user.logout.ask.text1" xml:space="preserve">
+    <value>即将退出当前用户，请确认 ?</value>
+  </data>
+  <data name="dlg.user.logout.title" xml:space="preserve">
+    <value>提示 ! </value>
+  </data>
+  <data name="mapping.src.const.time.err.msg1" xml:space="preserve">
+    <value>无效的时间格式。</value>
+  </data>
+  <data name="mapping.src.exp.err.msg6" xml:space="preserve">
+    <value>输入1应该为一个时间类型</value>
+  </data>
+  <data name="mapping.src.exp.err.msg7" xml:space="preserve">
+    <value>输入2应该为一个时间类型</value>
+  </data>
+  <data name="dlg.title.err.text" xml:space="preserve">
+    <value>错误 !</value>
+  </data>
+  <data name="dlg.validation.error.text1" xml:space="preserve">
+    <value>脚本校验失败，请按提示修正错误，谢谢。</value>
+  </data>
+  <data name="dlg.error.title" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="dlg.info.title" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="dlg.warn.title" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="ide.editor.dlg.debug.stop.msg1" xml:space="preserve">
+    <value>脚本正在运行，请先终止运行。</value>
+  </data>
+  <data name="ide.editor.dlg.debug.stop.msg2" xml:space="preserve">
+    <value>终止脚本运行失败，请在调试面板中尝试终止脚本运行。</value>
+  </data>
+  <data name="ide.editor.dlg.save.msg1" xml:space="preserve">
+    <value>当前脚本正在编辑中，是否保存 ？</value>
+  </data>
+  <data name="ide.feditor.ptree.del.msg1" xml:space="preserve">
+    <value>该组的参数已被引用 {0} 次, 删除将会导致脚本校验失败. \n 继续 ?</value>
+  </data>
+  <data name="ide.feditor.ptree.del.msg2" xml:space="preserve">
+    <value>该参素已被引用 {0} 次, 删除将会导致脚本校验失败. \n 继续 ?</value>
+  </data>
+  <data name="ide.feditor.tree.dnd.msg1" xml:space="preserve">
+    <value>节点 {0} 已经存在一个同名子元素 {1}, 确认替换已有元素 ?</value>
+  </data>
+  <data name="ide.feditor.tree.dnd.title1" xml:space="preserve">
+    <value>确认替换 ？</value>
+  </data>
+  <data name="ide.feditor.wetree.del.msg1" xml:space="preserve">
+    <value>该组的网页元素已被引用 {0} 次, 删除将会导致脚本校验失败. \n 继续 ?</value>
+  </data>
+  <data name="ide.feditor.wetree.del.msg2" xml:space="preserve">
+    <value>该网页元素已被引用 {0} 次, 删除将会导致脚本校验失败. \n 继续 ?</value>
+  </data>
+  <data name="mapping.gf.btn.text1" xml:space="preserve">
+    <value>添加 ...</value>
+  </data>
+  <data name="view.con.valid.msg1" xml:space="preserve">
+    <value>元素名称不能为空 !</value>
+  </data>
+  <data name="view.op.we.dlg.msg" xml:space="preserve">
+    <value>选择一个输入元素</value>
+  </data>
+  <data name="view.op.we.err.msg1" xml:space="preserve">
+    <value>错误，脚本为空 ! </value>
+  </data>
+  <data name="view.param.valid.msg1" xml:space="preserve">
+    <value>元素名称不能为空 !</value>
+  </data>
+  <data name="ide.script.publish.warning" xml:space="preserve">
+    <value>请确认即将发布的脚本中未包含个人敏感信息，比如用户名，密码。如有敏感信息，请务必擦掉。发布，点击“确认”按钮，否则点击“取消”，取消本次发布。</value>
+  </data>
+  <data name="user.login.status.msg1" xml:space="preserve">
+    <value>用户未登录</value>
+  </data>
+  <data name="user.login.status.msg2" xml:space="preserve">
+    <value>欢迎 {0}</value>
+  </data>
+  <data name="valid.be.name.msg1" xml:space="preserve">
+    <value>元素名称不能为空</value>
+  </data>
+  <data name="view.we.att.param.msg1" xml:space="preserve">
+    <value>该元素包含参数，不能在此编辑，只能重新抓取一个新元素</value>
+  </data>
+  <data name="dlg.wea.pvalue.text1" xml:space="preserve">
+    <value>新字符串</value>
+  </data>
+</root>

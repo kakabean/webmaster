@@ -1,0 +1,895 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CONDITION.INPUT_EXISTED" xml:space="preserve">
+    <value>输入元素存在</value>
+    <comment>输入元素比较模式</comment>
+  </data>
+  <data name="CONDITION.NUM_BIGGER" xml:space="preserve">
+    <value>大于</value>
+    <comment>数字比较模式</comment>
+  </data>
+  <data name="CONDITION.NUM_EQUAL" xml:space="preserve">
+    <value>等于</value>
+  </data>
+  <data name="CONDITION.NUM_EQ_BIGGER" xml:space="preserve">
+    <value>大于等于</value>
+  </data>
+  <data name="CONDITION.NUM_EQ_LESS" xml:space="preserve">
+    <value>小于等于</value>
+  </data>
+  <data name="CONDITION.NUM_LESS" xml:space="preserve">
+    <value>小于</value>
+  </data>
+  <data name="CONDITION.NUM_NOT_EQUAL" xml:space="preserve">
+    <value>不等于</value>
+  </data>
+  <data name="CONDITION.SET_CONTAIN" xml:space="preserve">
+    <value>集合包含输入2</value>
+    <comment>集合比较模式</comment>
+  </data>
+  <data name="CONDITION.SET_EXCLUDE" xml:space="preserve">
+    <value>集合不包含输入2</value>
+  </data>
+  <data name="CONDITION.STR_CONTAIN" xml:space="preserve">
+    <value>包含</value>
+    <comment>字符串的比较模式</comment>
+  </data>
+  <data name="CONDITION.STR_ENDWIDTH" xml:space="preserve">
+    <value>结尾于</value>
+  </data>
+  <data name="CONDITION.STR_FULLMATCH" xml:space="preserve">
+    <value>完全匹配</value>
+  </data>
+  <data name="CONDITION.STR_STARTWITH" xml:space="preserve">
+    <value>开始于</value>
+  </data>
+  <data name="con.category.num" xml:space="preserve">
+    <value>数字</value>
+    <comment>条件的类别名称</comment>
+  </data>
+  <data name="con.category.obj" xml:space="preserve">
+    <value>对象</value>
+  </data>
+  <data name="con.category.set" xml:space="preserve">
+    <value>集合</value>
+  </data>
+  <data name="con.category.str" xml:space="preserve">
+    <value>字符串</value>
+  </data>
+  <data name="Op.Input.Parameter" xml:space="preserve">
+    <value>参数</value>
+    <comment>操作输入元素类型</comment>
+  </data>
+  <data name="Op.Input.String" xml:space="preserve">
+    <value>字符串</value>
+  </data>
+  <data name="OP_CLICK" xml:space="preserve">
+    <value>点击</value>
+    <comment>操作的类型名称</comment>
+  </data>
+  <data name="OP_END" xml:space="preserve">
+    <value>终止节点</value>
+  </data>
+  <data name="OP_INPUT" xml:space="preserve">
+    <value>输入</value>
+  </data>
+  <data name="OP_NOP" xml:space="preserve">
+    <value>空操作</value>
+  </data>
+  <data name="OP_OPEN_URL_N_T" xml:space="preserve">
+    <value>在新窗口打开</value>
+  </data>
+  <data name="OP_OPEN_URL_T" xml:space="preserve">
+    <value>在当前窗口打开</value>
+  </data>
+  <data name="OP_PROCESS" xml:space="preserve">
+    <value>子流程</value>
+  </data>
+  <data name="OP_REFRESH" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="OP_START" xml:space="preserve">
+    <value>开始节点</value>
+  </data>
+  <data name="ParamType.FILE" xml:space="preserve">
+    <value>文件</value>
+    <comment>参数类型名称</comment>
+  </data>
+  <data name="ParamType.NUMBER" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="ParamType.SET" xml:space="preserve">
+    <value>集合</value>
+  </data>
+  <data name="ParamType.STRING" xml:space="preserve">
+    <value>字符串</value>
+  </data>
+  <data name="Rule.RestartScriptRule" xml:space="preserve">
+    <value>重新运行脚本</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P1" xml:space="preserve">
+    <value>等待{0}毫秒, 如果网页元素不存在，终止脚本执行</value>
+    <comment>规则Action的描述</comment>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P2" xml:space="preserve">
+    <value>等待{0}毫秒, 如果网页元素不存在，跳转到操作”{1}“</value>
+  </data>
+  <data name="RuleTrigger.INVALID" xml:space="preserve">
+    <value>无效条件</value>
+    <comment>规则触发条件</comment>
+  </data>
+  <data name="RuleTrigger.NULL_ELEMENT" xml:space="preserve">
+    <value>网页元素不存在</value>
+  </data>
+  <data name="RuleTrigger.OP_EXE_ERROR" xml:space="preserve">
+    <value>操作执行出错</value>
+  </data>
+  <data name="RuleTrigger.REQ_TIMEOUT" xml:space="preserve">
+    <value>请求超时</value>
+  </data>
+  <data name="SET_ACCESS.LOOP" xml:space="preserve">
+    <value>循环遍历</value>
+    <comment>集合元素访问方式</comment>
+  </data>
+  <data name="SET_ACCESS.RANDOM" xml:space="preserve">
+    <value>随机</value>
+  </data>
+  <data name="SET_ACCESS.RANDOM_NO_DUPLICATE" xml:space="preserve">
+    <value>随机不重复</value>
+  </data>
+  <data name="model.Con.Name" xml:space="preserve">
+    <value>条件</value>
+  </data>
+  <data name="model.ConGrp.Name" xml:space="preserve">
+    <value>条件组</value>
+  </data>
+  <data name="model.Diagram.Name" xml:space="preserve">
+    <value>图表</value>
+  </data>
+  <data name="model.Op.Name" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="model.Opc.Name" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="model.Param.Name" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="model.ParamGrp.Name" xml:space="preserve">
+    <value>参数组</value>
+  </data>
+  <data name="model.Proc.Des" xml:space="preserve">
+    <value>子流程</value>
+  </data>
+  <data name="model.Proc.Name" xml:space="preserve">
+    <value>子流程</value>
+  </data>
+  <data name="model.Proc.PriParam.Des" xml:space="preserve">
+    <value>私有参数</value>
+  </data>
+  <data name="model.Proc.PriParam.Name" xml:space="preserve">
+    <value>私有参数</value>
+  </data>
+  <data name="model.Proc.PubParam.Des" xml:space="preserve">
+    <value>共享参数</value>
+  </data>
+  <data name="model.Proc.PubParam.Name" xml:space="preserve">
+    <value>共享参数</value>
+  </data>
+  <data name="model.Rule.Name" xml:space="preserve">
+    <value>规则</value>
+  </data>
+  <data name="model.SRoot.Name" xml:space="preserve">
+    <value>脚本</value>
+  </data>
+  <data name="model.SRoot.ProcRoot.Des" xml:space="preserve">
+    <value>脚本主流程</value>
+  </data>
+  <data name="model.SRoot.ProcRoot.Name" xml:space="preserve">
+    <value>主流程</value>
+  </data>
+  <data name="model.SRoot.ProcRoot.PriParam.Des" xml:space="preserve">
+    <value>全局私有参数</value>
+  </data>
+  <data name="model.SRoot.ProcRoot.PriParam.Name" xml:space="preserve">
+    <value>私有参数</value>
+  </data>
+  <data name="model.SRoot.ProcRoot.PubParam.Des" xml:space="preserve">
+    <value>全局共享参数</value>
+  </data>
+  <data name="model.SRoot.ProcRoot.PubParam.Name" xml:space="preserve">
+    <value>共享参数</value>
+  </data>
+  <data name="model.SRoot.RawWEGrp.Des" xml:space="preserve">
+    <value>原始数据不能直接使用，请移至其他文件夹使用</value>
+  </data>
+  <data name="model.SRoot.RawWEGrp.Name" xml:space="preserve">
+    <value>原始数据</value>
+    <comment>Model elements</comment>
+  </data>
+  <data name="model.SRoot.WERoot.Des" xml:space="preserve">
+    <value>所有网页元素的列表</value>
+  </data>
+  <data name="model.SRoot.WERoot.Name" xml:space="preserve">
+    <value>网页元素列表</value>
+  </data>
+  <data name="model.WE.Name" xml:space="preserve">
+    <value>网页元素</value>
+  </data>
+  <data name="model.WEA.Name" xml:space="preserve">
+    <value>元素属性</value>
+  </data>
+  <data name="model.WEGrp.Name" xml:space="preserve">
+    <value>元素组</value>
+  </data>
+  <data name="model.Opc.ConGrp.Des" xml:space="preserve">
+    <value>根条件列表</value>
+  </data>
+  <data name="model.Opc.ConGrp.Name" xml:space="preserve">
+    <value>条件列表</value>
+  </data>
+  <data name="log.blankspace.text" xml:space="preserve">
+    <value> </value>
+    <comment>空格字符</comment>
+  </data>
+  <data name="log.bool.false.text" xml:space="preserve">
+    <value>假</value>
+  </data>
+  <data name="log.bool.true.text" xml:space="preserve">
+    <value>真</value>
+  </data>
+  <data name="log.con.prefix" xml:space="preserve">
+    <value>条件</value>
+  </data>
+  <data name="log.congrp.prefix" xml:space="preserve">
+    <value>条件组</value>
+  </data>
+  <data name="log.op.prefix" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="log.op.text1" xml:space="preserve">
+    <value>网页元素</value>
+  </data>
+  <data name="log.op.text2" xml:space="preserve">
+    <value>没有操作元素</value>
+  </data>
+  <data name="log.op.text3" xml:space="preserve">
+    <value>输入</value>
+  </data>
+  <data name="log.opc.prefix" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="log.opc.text1" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="log.opw.status.cwf" xml:space="preserve">
+    <value>条件输入元素找到</value>
+    <comment>CON_WE_FOUND</comment>
+  </data>
+  <data name="log.opw.status.cwnf" xml:space="preserve">
+    <value>条件输入元素未找到</value>
+    <comment>CON_WE_NOT_FOUND</comment>
+  </data>
+  <data name="log.opw.status.exerr" xml:space="preserve">
+    <value>执行出错</value>
+    <comment>EXE_ERROR</comment>
+  </data>
+  <data name="log.opw.status.invalid" xml:space="preserve">
+    <value>出错</value>
+  </data>
+  <data name="log.opw.status.label" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="log.opw.status.openf" xml:space="preserve">
+    <value>操作元素未找到</value>
+    <comment>OP_WE_NOT_FOUND</comment>
+  </data>
+  <data name="log.opw.status.opmwf" xml:space="preserve">
+    <value>映射元素找到</value>
+    <comment>OPC_PARAM_MAPPING_WE_FOUND</comment>
+  </data>
+  <data name="log.opw.status.opmwnf" xml:space="preserve">
+    <value>映射元素未找到</value>
+    <comment>OPC_PARAM_MAPPING_WE_NOT_FOUND</comment>
+  </data>
+  <data name="log.opw.status.procend" xml:space="preserve">
+    <value>子流程结束</value>
+    <comment>PROC_END</comment>
+  </data>
+  <data name="log.opw.status.ready" xml:space="preserve">
+    <value>就绪</value>
+    <comment>READY</comment>
+  </data>
+  <data name="log.opw.status.restart" xml:space="preserve">
+    <value>重启脚本</value>
+    <comment>RESTART_SCRIPT</comment>
+  </data>
+  <data name="log.opw.status.stop" xml:space="preserve">
+    <value>脚本终止</value>
+    <comment>STOP</comment>
+  </data>
+  <data name="log.opw.status.timeout" xml:space="preserve">
+    <value>请求超时</value>
+    <comment>REQ_TIME_OUT</comment>
+  </data>
+  <data name="log.opw.status.upwf" xml:space="preserve">
+    <value>参数的元素找到</value>
+    <comment>UPDATE_PARAM_WE_FOUND</comment>
+  </data>
+  <data name="log.opw.status.upwnf" xml:space="preserve">
+    <value>参数的元素未找到</value>
+    <comment>UPDATE_PARAM_WE_NOT_FOUND</comment>
+  </data>
+  <data name="log.proc.prefix" xml:space="preserve">
+    <value>子流程</value>
+  </data>
+  <data name="log.proc.text1" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="log.proc.text2" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <data name="log.con.param.pvtext" xml:space="preserve">
+    <value>值</value>
+    <comment>parameter value text</comment>
+  </data>
+  <data name="log.con.param.text" xml:space="preserve">
+    <value>参数</value>
+    <comment>parameter name text</comment>
+  </data>
+  <data name="log.con.str.pvtext" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="log.con.str.text" xml:space="preserve">
+    <value>字符串</value>
+  </data>
+  <data name="log.con.text1" xml:space="preserve">
+    <value>条件</value>
+    <comment>Condition text</comment>
+  </data>
+  <data name="log.con.text2" xml:space="preserve">
+    <value>存在</value>
+    <comment>Input WE existed</comment>
+  </data>
+  <data name="log.con.text3" xml:space="preserve">
+    <value>未找到</value>
+    <comment>Input WE not found</comment>
+  </data>
+  <data name="log.con.we.text" xml:space="preserve">
+    <value>网页元素</value>
+  </data>
+  <data name="log.con.wea.text" xml:space="preserve">
+    <value>元素属性</value>
+  </data>
+  <data name="log.con.wea.vtext" xml:space="preserve">
+    <value>真实值</value>
+  </data>
+  <data name="log.congrp.text1" xml:space="preserve">
+    <value>条件组</value>
+  </data>
+  <data name="log.congrp.text2" xml:space="preserve">
+    <value>未处理</value>
+  </data>
+  <data name="CONDITION.STR_NOT_CONTAIN" xml:space="preserve">
+    <value>不包含</value>
+    <comment>String compare pattern</comment>
+  </data>
+  <data name="CONDITION.STR_NOT_ENDWIDTH" xml:space="preserve">
+    <value>不结尾于</value>
+  </data>
+  <data name="CONDITION.STR_NOT_FULLMATCH" xml:space="preserve">
+    <value>不完全匹配</value>
+  </data>
+  <data name="CONDITION.STR_NOT_STARTWITH" xml:space="preserve">
+    <value>不开始于</value>
+  </data>
+  <data name="mapping.src.type.const.text" xml:space="preserve">
+    <value>常量</value>
+    <comment>Mapping source type text - const</comment>
+  </data>
+  <data name="model.Expression.des" xml:space="preserve">
+    <value>表达式的两端必须为同一类型</value>
+  </data>
+  <data name="model.Expression.name" xml:space="preserve">
+    <value>表达式</value>
+  </data>
+  <data name="model.GF.name" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="ParamCmd.assign.text" xml:space="preserve">
+    <value>映射</value>
+    <comment>Parameter command type - Assign text</comment>
+  </data>
+  <data name="ParamCmd.setadd.text" xml:space="preserve">
+    <value>添加集合元素</value>
+    <comment>Parameter command type - UPDATE_SET_ADD text</comment>
+  </data>
+  <data name="ParamCmd.setdel.text" xml:space="preserve">
+    <value>删除集合元素</value>
+  </data>
+  <data name="gf.category.num" xml:space="preserve">
+    <value>数字方法</value>
+  </data>
+  <data name="gf.category.str" xml:space="preserve">
+    <value>字符串方法</value>
+    <comment>GlobalFunction string command category text</comment>
+  </data>
+  <data name="gf.num.get.param" xml:space="preserve">
+    <value>必须为一个数字</value>
+    <comment>NUM_GET_MIN parameter </comment>
+  </data>
+  <data name="gf.num.get_avg.des" xml:space="preserve">
+    <value>获取所有数字的平均值</value>
+    <comment>NUM_GET_AVG</comment>
+  </data>
+  <data name="gf.num.get_avg.name" xml:space="preserve">
+    <value>GetAverage</value>
+    <comment>NUM_GET_AVG, Here use english, and ignore the nls, it seems english is more better for method show.</comment>
+  </data>
+  <data name="gf.num.get_max.des" xml:space="preserve">
+    <value>获取所有数字中的最大值</value>
+    <comment>NUM_GET_MAX</comment>
+  </data>
+  <data name="gf.num.get_max.name" xml:space="preserve">
+    <value>GetMax</value>
+    <comment>NUM_GET_MAX</comment>
+  </data>
+  <data name="gf.num.get_min.des" xml:space="preserve">
+    <value>获取所有数字的最小值</value>
+    <comment>NUM_GET_MIN</comment>
+  </data>
+  <data name="gf.num.get_min.name" xml:space="preserve">
+    <value>GetMin</value>
+    <comment>NUM_GET_MIN</comment>
+  </data>
+  <data name="gf.str.get_by_bse.des" xml:space="preserve">
+    <value>从源中截取一个子串，它位于开始和结束串之间</value>
+    <comment>STR_GET_BTN_START_END</comment>
+  </data>
+  <data name="gf.str.get_by_bse.name" xml:space="preserve">
+    <value>SubStringBetweenStart-End</value>
+    <comment>STR_GET_BTN_START_END</comment>
+  </data>
+  <data name="gf.str.get_by_bse.p0" xml:space="preserve">
+    <value>源字符串，将会从其中截取一段子串</value>
+    <comment>STR_GET_BTN_START_END param 1</comment>
+  </data>
+  <data name="gf.str.get_by_bse.p1" xml:space="preserve">
+    <value>开始字符串</value>
+    <comment>STR_GET_BTN_START_END param 2</comment>
+  </data>
+  <data name="gf.str.get_by_bse.p2" xml:space="preserve">
+    <value>结束字符串</value>
+    <comment>STR_GET_BTN_START_END param 3</comment>
+  </data>
+  <data name="gf.str.get_by_se.des" xml:space="preserve">
+    <value>从源串中截取一个子串，该子串以开始串开始，以结束串结尾</value>
+    <comment>STR_GET_BY_START_END</comment>
+  </data>
+  <data name="gf.str.get_by_se.name" xml:space="preserve">
+    <value>SubstringWithStart-End</value>
+    <comment>STR_GET_BY_START_END</comment>
+  </data>
+  <data name="gf.str.get_by_se.p0" xml:space="preserve">
+    <value>源字符串，将会从其中截取一段子串</value>
+    <comment>STR_GET_BY_START_END param 1</comment>
+  </data>
+  <data name="gf.str.get_by_se.p1" xml:space="preserve">
+    <value>开始字符串</value>
+    <comment>STR_GET_BY_START_END param 2</comment>
+  </data>
+  <data name="gf.str.get_by_se.p2" xml:space="preserve">
+    <value>结束字符串</value>
+    <comment>STR_GET_BY_START_END param 3</comment>
+  </data>
+  <data name="gf.category.number" xml:space="preserve">
+    <value>数字操作</value>
+    <comment>GlobalFunction category - Number</comment>
+  </data>
+  <data name="gf.category.string" xml:space="preserve">
+    <value>字符串操作</value>
+    <comment>GlobalFunction category - String</comment>
+  </data>
+  <data name="eng.run.status.finish.text" xml:space="preserve">
+    <value>~~~~~~~~~~~~~~~~ 脚本 { {0} } 运行结束 ~~~~~~~~~~~~~~~~~~~~~~~~~~~</value>
+  </data>
+  <data name="RuleTrigger.NO_NEXT_OP_FOUND" xml:space="preserve">
+    <value>未找到下一步操作</value>
+  </data>
+  <data name="Rule.GotoOperationRule" xml:space="preserve">
+    <value>执行下一个操作</value>
+  </data>
+  <data name="Rule.GotoOperationRule.P1" xml:space="preserve">
+    <value>规则将要执行的下一步操作</value>
+  </data>
+  <data name="log.exe.exp.text1" xml:space="preserve">
+    <value>注意：配置错误，请结合日志检查脚本的规则和连接条件设置。</value>
+  </data>
+  <data name="valid.sroot.version.msg1" xml:space="preserve">
+    <value>版本号无效，版本号格式形如"1.0.0.1"</value>
+  </data>
+  <data name="valid.sroot.version.msg2" xml:space="preserve">
+    <value>版本号无效，格式为带点的4个数字</value>
+  </data>
+  <data name="valid.sroot.version.msg3" xml:space="preserve">
+    <value>版本号无效，格式为带点的4个数字</value>
+  </data>
+  <data name="valid.sroot.version.msg4" xml:space="preserve">
+    <value>新版本号必须高于当前版本号</value>
+  </data>
+  <data name="log.req.url.violation.text1" xml:space="preserve">
+    <value>请求违规的地址，请检查脚本的信任URL列表和安全控制开关. url = </value>
+  </data>
+  <data name="log.debug.cmd.stop.text1" xml:space="preserve">
+    <value>脚本已经被“终止”命令停止</value>
+  </data>
+  <data name="ParamType.DATETIME" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="eng.op.update.err.msg1" xml:space="preserve">
+    <value>更新参数出错</value>
+  </data>
+  <data name="log.op.update.prefix" xml:space="preserve">
+    <value>更新参数</value>
+    <comment>Update Operation parameters</comment>
+  </data>
+  <data name="eng.opc.update.err.msg1" xml:space="preserve">
+    <value>更新连接的目标流程参数出错</value>
+  </data>
+  <data name="log.cmd.after.text" xml:space="preserve">
+    <value>运行后{ {0} }</value>
+  </data>
+  <data name="log.cmd.assign.text" xml:space="preserve">
+    <value>赋值</value>
+  </data>
+  <data name="log.cmd.before.text" xml:space="preserve">
+    <value>, 运行前, 源={ {0} }, 目标={ {1} },</value>
+  </data>
+  <data name="log.cmd.prefix" xml:space="preserve">
+    <value>命令 - </value>
+  </data>
+  <data name="log.mapping.err.text1" xml:space="preserve">
+    <value>错误，网页元素 {0} 未找到.</value>
+  </data>
+  <data name="log.opc.update.prefix" xml:space="preserve">
+    <value>更新子流程参数</value>
+  </data>
+  <data name="eng.run.status.start.text" xml:space="preserve">
+    <value>~~~~~~~~~~~~~~~~ 脚本 { {0} } 运行开始  ~~~~~~~~~~~~~~~~~~~~~~~~~~~</value>
+  </data>
+  <data name="valid.be.des.len.exceed.msg" xml:space="preserve">
+    <value> 描述内容超长, 最大值 = {0}.</value>
+  </data>
+  <data name="valid.model.err.msg1" xml:space="preserve">
+    <value>元素类型无效.</value>
+  </data>
+  <data name="valid.op.elem.msg" xml:space="preserve">
+    <value>操作元素不能为空，名称 = { {0} }</value>
+  </data>
+  <data name="valid.op.input.msg1" xml:space="preserve">
+    <value>操作 { {0} } 的输入为空. </value>
+  </data>
+  <data name="valid.op.input.msg2" xml:space="preserve">
+    <value>操作 { {0} } 的输入必须为参数，数字或字符串.</value>
+  </data>
+  <data name="valid.op.opc.msg1" xml:space="preserve">
+    <value>操作 { {0} } 至少需要一个连接指向下一步操作或流程</value>
+  </data>
+  <data name="valid.op.time.msg1" xml:space="preserve">
+    <value>操作 { {0} } 等待时间格式出错。</value>
+  </data>
+  <data name="valid.op.time.msg2" xml:space="preserve">
+    <value>操作 { {0} } 执行时间格式错误，格式应为 : HH:mm:ss</value>
+  </data>
+  <data name="valid.proc.time.msg1" xml:space="preserve">
+    <value>流程 { {0} } 等待时间格式出错。</value>
+  </data>
+  <data name="valid.proc.time.msg2" xml:space="preserve">
+    <value>流程 { {0} } 执行时间格式错误，格式应为 : HH:mm:ss</value>
+  </data>
+  <data name="valid.sroot.tgt.url.msg1" xml:space="preserve">
+    <value>脚本目标URL的值为空。</value>
+  </data>
+  <data name="valid.sroot.tgt.url.msg2" xml:space="preserve">
+    <value>脚本目标URL超长，最大值 ={0}, url ={ {1} }</value>
+  </data>
+  <data name="valid.sroot.urls.msg1" xml:space="preserve">
+    <value>脚本信任URL列表里面有个URL为空.</value>
+  </data>
+  <data name="valid.sroot.urls.msg2" xml:space="preserve">
+    <value>脚本信任URL中, URL { {0} } 超过最大限长, 最大值 = {1} . </value>
+  </data>
+  <data name="valid.sroot.urls.msg3" xml:space="preserve">
+    <value>脚本信任URL必须开始于 http:// 或 https://, url ={ {0} } </value>
+  </data>
+  <data name="valid.wea.pattern.msg1" xml:space="preserve">
+    <value>元素属性的匹配模式无效，名称 = {0}</value>
+  </data>
+  <data name="valid.wea.pattern.msg2" xml:space="preserve">
+    <value>元素属性的匹配值不能为空，名称 = {0}. </value>
+  </data>
+  <data name="model.ParamCmd.des" xml:space="preserve">
+    <value>映射一个值到某参数</value>
+  </data>
+  <data name="model.ParamCmd.name" xml:space="preserve">
+    <value>映射</value>
+  </data>
+  <data name="valid.be.name.exceed.msg" xml:space="preserve">
+    <value>名称超限长, 最大长度 = {0}</value>
+  </data>
+  <data name="valid.be.name.msg1" xml:space="preserve">
+    <value>名称包含非法字符，非法字符包含 : </value>
+  </data>
+  <data name="valid.be.name.msg2" xml:space="preserve">
+    <value> 名称 = { {0} } 已经存在</value>
+  </data>
+  <data name="valid.be.null.msg" xml:space="preserve">
+    <value>不能为空</value>
+  </data>
+  <data name="valid.be.null.msg1" xml:space="preserve">
+    <value> 名称不能为空</value>
+  </data>
+  <data name="valid.cmd.assign.msg1" xml:space="preserve">
+    <value>赋值命令的目标参数必须为字符串或数字类型</value>
+  </data>
+  <data name="valid.cmd.input.msg1" xml:space="preserve">
+    <value>映射的输入源为空</value>
+  </data>
+  <data name="valid.cmd.input.msg2" xml:space="preserve">
+    <value>映射的目标对象为空</value>
+  </data>
+  <data name="valid.cmd.set.msg1" xml:space="preserve">
+    <value>集合命令的目标参数必须为集合类型</value>
+  </data>
+  <data name="valid.cmd.set.msg2" xml:space="preserve">
+    <value>集合命令的映射源应该为一个数字</value>
+  </data>
+  <data name="valid.cmd.set.msg3" xml:space="preserve">
+    <value>集合命令的映射源 应该为时间</value>
+  </data>
+  <data name="valid.con.msg1" xml:space="preserve">
+    <value>条件 { {0} } 输入1必须为一个网页元素，元素属性或参数</value>
+  </data>
+  <data name="valid.con.msg2" xml:space="preserve">
+    <value>条件 { {0} } 输入2必须为空</value>
+  </data>
+  <data name="valid.con.msg3" xml:space="preserve">
+    <value>条件 { {0} } 输入{1}必须为数字或数字类型的参数</value>
+  </data>
+  <data name="valid.con.set.msg1" xml:space="preserve">
+    <value>条件 { {0} } 是一个集合模式，输入1应为一个集合参数</value>
+  </data>
+  <data name="valid.con.set.msg2" xml:space="preserve">
+    <value>条件 { {0} } 是一个集合模式，输入2不能为空</value>
+  </data>
+  <data name="valid.con.str.msg1" xml:space="preserve">
+    <value>条件 { {0} } 输入{1} 不能为空</value>
+  </data>
+  <data name="valid.con.time.msg1" xml:space="preserve">
+    <value>条件 { {0} } 输入{1} 应该为一个时间值</value>
+  </data>
+  <data name="valid.exp.input.left.msg1" xml:space="preserve">
+    <value>表达式左边输入为空</value>
+  </data>
+  <data name="valid.exp.num.div.msg1" xml:space="preserve">
+    <value>表达式对于 / 操作，右边输入不能为零</value>
+  </data>
+  <data name="valid.exp.num.msg1" xml:space="preserve">
+    <value>表达式左边输入应该是一个数字</value>
+  </data>
+  <data name="valid.exp.num.msg2" xml:space="preserve">
+    <value>表达式右边输入应该是一个数字</value>
+  </data>
+  <data name="valid.exp.operator.msg1" xml:space="preserve">
+    <value>表达式操作符错误，对于{0}类型，只能为 {1} </value>
+  </data>
+  <data name="valid.exp.right.left.msg1" xml:space="preserve">
+    <value>表达式右边输入为空</value>
+  </data>
+  <data name="valid.exp.time.msg1" xml:space="preserve">
+    <value>表达式左边输入应该是一个时间</value>
+  </data>
+  <data name="valid.exp.time.msg2" xml:space="preserve">
+    <value>表达式右边输入应该是一个时间</value>
+  </data>
+  <data name="valid.param.set.msg1" xml:space="preserve">
+    <value>参数 { {0} } 为一个数字集合, 所有元素必须为数字</value>
+  </data>
+  <data name="valid.param.time.msg1" xml:space="preserve">
+    <value>参数 { {0} } 时间格式错误，格式应为 : HH:mm:ss</value>
+  </data>
+  <data name="valid.param.value.msg1" xml:space="preserve">
+    <value>参数 { {0} } 值未设置</value>
+  </data>
+  <data name="valid.param.value.msg2" xml:space="preserve">
+    <value>参数 { {0} } 为数字类型, 值必须为一个数字 </value>
+  </data>
+  <data name="valid.rule.goto.p1.err1" xml:space="preserve">
+    <value>规则参数 "下一步操作" 应该为一个操作或流程</value>
+  </data>
+  <data name="valid.rule.WNE.p1.err1" xml:space="preserve">
+    <value>规则参数 “超时时间” 应该为数字</value>
+  </data>
+  <data name="valid.rule.WNE.p2.err1" xml:space="preserve">
+    <value>规则参数 "下一步操作" 应该为一个操作或流程</value>
+  </data>
+  <data name="valid.set.item.msg1" xml:space="preserve">
+    <value> 集合子元素值为空</value>
+  </data>
+  <data name="valid.set.item.msg2" xml:space="preserve">
+    <value> 集合子元素 { {0} } 应该为数字类型</value>
+  </data>
+  <data name="valid.set.item.msg3" xml:space="preserve">
+    <value> 集合子元素应该为数字类型</value>
+  </data>
+  <data name="valid.set.item.msg4" xml:space="preserve">
+    <value> 集合子元素 { {0} } 应该为字符串类型</value>
+  </data>
+  <data name="valid.set.item.msg5" xml:space="preserve">
+    <value> 集合子元素类型不支持，类型 = { {0} }</value>
+  </data>
+  <data name="valid.cmd.input.param.msg1" xml:space="preserve">
+    <value>命令的输入源不能是敏感参数</value>
+  </data>
+  <data name="valid.con.input.param.msg1" xml:space="preserve">
+    <value>条件 { {0} } 的输入{1} 不能是一个敏感参数</value>
+  </data>
+  <data name="valid.exp.input.param.msg1" xml:space="preserve">
+    <value>条件的输入{1} 不能是一个敏感参数</value>
+  </data>
+  <data name="valid.gf.param.msg1" xml:space="preserve">
+    <value>参数不能为空</value>
+  </data>
+  <data name="valid.gf.param.msg3" xml:space="preserve">
+    <value>敏感参数不能用作{0}的参数</value>
+  </data>
+  <data name="valid.gf.type.msg1" xml:space="preserve">
+    <value>类型和命令不匹配</value>
+  </data>
+  <data name="valid.gf.type.msg2" xml:space="preserve">
+    <value>第{0}个参数应该是一个数字</value>
+  </data>
+  <data name="valid.param.sensitive.msg1" xml:space="preserve">
+    <value>参数 { {0} } 只能被输入密码操作使用</value>
+  </data>
+  <data name="valid.param.sensitive.msg2" xml:space="preserve">
+    <value>参数 { {0} } 只能被一个带有密码元素的操作消费</value>
+  </data>
+  <data name="valid.we.pwd.msg1" xml:space="preserve">
+    <value>密码元素 { {0} } 只能被操作使用一次</value>
+  </data>
+  <data name="gf.str.split.des" xml:space="preserve">
+    <value>把源串拆分成多个字符串</value>
+    <comment>STR_SPLIT</comment>
+  </data>
+  <data name="gf.str.split.name" xml:space="preserve">
+    <value>Split</value>
+    <comment>STR_SPLIT</comment>
+  </data>
+  <data name="gf.str.split.p0" xml:space="preserve">
+    <value>待拆分的源串</value>
+  </data>
+  <data name="gf.str.split.p1" xml:space="preserve">
+    <value>拆分标记</value>
+  </data>
+  <data name="gf.str.split.pn" xml:space="preserve">
+    <value>顺次保存子串</value>
+  </data>
+</root>

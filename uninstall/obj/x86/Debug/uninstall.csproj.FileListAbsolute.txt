@@ -1,0 +1,5 @@
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\Uninstall\bin\Debug\uninstall.exe
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\Uninstall\bin\Debug\uninstall.pdb
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\Uninstall\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\Uninstall\obj\x86\Debug\uninstall.exe
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\Uninstall\obj\x86\Debug\uninstall.pdb

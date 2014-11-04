@@ -1,0 +1,15 @@
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\update\bin\Release\update.exe
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\update\bin\Release\update.pdb
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\update\bin\Release\en-US\update.resources.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\update\bin\Release\zh-CN\update.resources.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\update\obj\x86\Release\ResolveAssemblyReference.cache
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\update\obj\x86\Release\update.Properties.Resources.resources
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\update\obj\x86\Release\WebMaster.update.Update.resources
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\update\obj\x86\Release\update.lang.UIResource.en-US.resources
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\update\obj\x86\Release\update.lang.UIResource.zh-CN.resources
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\update\obj\x86\Release\GenerateResource.read.1.tlog
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\update\obj\x86\Release\GenerateResource.write.1.tlog
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\update\obj\x86\Release\en-US\update.resources.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\update\obj\x86\Release\zh-CN\update.resources.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\update\obj\x86\Release\update.exe
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\update\obj\x86\Release\update.pdb

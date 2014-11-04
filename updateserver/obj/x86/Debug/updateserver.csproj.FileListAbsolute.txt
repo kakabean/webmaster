@@ -1,0 +1,13 @@
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\updateserver\bin\Debug\updateserver.exe
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\updateserver\bin\Debug\updateserver.pdb
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\updateserver\bin\Debug\lib.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\updateserver\bin\Debug\lib.pdb
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\updateserver\bin\Debug\en-US\lib.resources.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\updateserver\bin\Debug\zh-CN\lib.resources.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\updateserver\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\updateserver\obj\x86\Debug\updateserver.Properties.Resources.resources
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\updateserver\obj\x86\Debug\WebMaster.updateserver.UpdateServiceUI.resources
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\updateserver\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\updateserver\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\updateserver\obj\x86\Debug\updateserver.exe
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\updateserver\obj\x86\Debug\updateserver.pdb

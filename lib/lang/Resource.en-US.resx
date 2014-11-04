@@ -1,0 +1,895 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CONDITION.INPUT_EXISTED" xml:space="preserve">
+    <value>Input Existed</value>
+    <comment>Object compare pattern</comment>
+  </data>
+  <data name="CONDITION.NUM_BIGGER" xml:space="preserve">
+    <value>Bigger Than</value>
+    <comment>Number compare pattern</comment>
+  </data>
+  <data name="CONDITION.NUM_EQUAL" xml:space="preserve">
+    <value>Equal</value>
+  </data>
+  <data name="CONDITION.NUM_EQ_BIGGER" xml:space="preserve">
+    <value>Equal or Bigger Than</value>
+  </data>
+  <data name="CONDITION.NUM_EQ_LESS" xml:space="preserve">
+    <value>Equal or Less Than</value>
+  </data>
+  <data name="CONDITION.NUM_LESS" xml:space="preserve">
+    <value>Less Than</value>
+  </data>
+  <data name="CONDITION.NUM_NOT_EQUAL" xml:space="preserve">
+    <value>Not Equal</value>
+  </data>
+  <data name="CONDITION.SET_CONTAIN" xml:space="preserve">
+    <value>Set contains object Input2</value>
+    <comment>Set compare pattern</comment>
+  </data>
+  <data name="CONDITION.SET_EXCLUDE" xml:space="preserve">
+    <value>Set excludes object Input2</value>
+  </data>
+  <data name="CONDITION.STR_CONTAIN" xml:space="preserve">
+    <value>Contain</value>
+    <comment>String compare pattern</comment>
+  </data>
+  <data name="CONDITION.STR_ENDWIDTH" xml:space="preserve">
+    <value>End With</value>
+  </data>
+  <data name="CONDITION.STR_FULLMATCH" xml:space="preserve">
+    <value>Full Match</value>
+  </data>
+  <data name="CONDITION.STR_STARTWITH" xml:space="preserve">
+    <value>Start With</value>
+  </data>
+  <data name="con.category.num" xml:space="preserve">
+    <value>Number</value>
+    <comment>Condition catagory text info</comment>
+  </data>
+  <data name="con.category.obj" xml:space="preserve">
+    <value>Object</value>
+  </data>
+  <data name="con.category.set" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="con.category.str" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="model.Con.Name" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="model.ConGrp.Name" xml:space="preserve">
+    <value>ConditionGroup</value>
+  </data>
+  <data name="model.Op.Name" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="model.Opc.Name" xml:space="preserve">
+    <value>Transition</value>
+  </data>
+  <data name="model.Param.Name" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="model.ParamGrp.Name" xml:space="preserve">
+    <value>ParameterGroup</value>
+  </data>
+  <data name="model.Proc.Des" xml:space="preserve">
+    <value>Sub Process</value>
+  </data>
+  <data name="model.Proc.Name" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="model.SRoot.Name" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="model.SRoot.ProcRoot.Des" xml:space="preserve">
+    <value>Top level process of all operations</value>
+  </data>
+  <data name="model.SRoot.ProcRoot.Name" xml:space="preserve">
+    <value>Main Process</value>
+  </data>
+  <data name="model.SRoot.ProcRoot.PriParam.Des" xml:space="preserve">
+    <value>Global private parameters</value>
+  </data>
+  <data name="model.SRoot.ProcRoot.PriParam.Name" xml:space="preserve">
+    <value>Global Private</value>
+  </data>
+  <data name="model.SRoot.ProcRoot.PubParam.Des" xml:space="preserve">
+    <value>Global public parameters</value>
+  </data>
+  <data name="model.SRoot.ProcRoot.PubParam.Name" xml:space="preserve">
+    <value>Global Public</value>
+  </data>
+  <data name="model.SRoot.RawWEGrp.Des" xml:space="preserve">
+    <value>Raw data can not be used directly, pls move them out for use</value>
+  </data>
+  <data name="model.SRoot.RawWEGrp.Name" xml:space="preserve">
+    <value>Raw Data</value>
+    <comment>Model elements</comment>
+  </data>
+  <data name="model.SRoot.WERoot.Des" xml:space="preserve">
+    <value>Root of all WebElements</value>
+  </data>
+  <data name="model.SRoot.WERoot.Name" xml:space="preserve">
+    <value>Root Elements</value>
+  </data>
+  <data name="model.WE.Name" xml:space="preserve">
+    <value>WebElement</value>
+  </data>
+  <data name="model.WEA.Name" xml:space="preserve">
+    <value>WebElementAttribute</value>
+  </data>
+  <data name="model.WEGrp.Name" xml:space="preserve">
+    <value>WebElementGroup</value>
+  </data>
+  <data name="Op.Input.Parameter" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>Operation Input type</comment>
+  </data>
+  <data name="Op.Input.String" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="OP_CLICK" xml:space="preserve">
+    <value>Click</value>
+    <comment>Operation type name</comment>
+  </data>
+  <data name="OP_END" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="OP_INPUT" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="OP_NOP" xml:space="preserve">
+    <value>NOP</value>
+  </data>
+  <data name="OP_OPEN_URL_N_T" xml:space="preserve">
+    <value>Open In New Tab</value>
+  </data>
+  <data name="OP_OPEN_URL_T" xml:space="preserve">
+    <value>Open In Current Tab</value>
+  </data>
+  <data name="OP_PROCESS" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="OP_REFRESH" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="OP_START" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ParamType.FILE" xml:space="preserve">
+    <value>File</value>
+    <comment>Parameter type text</comment>
+  </data>
+  <data name="ParamType.NUMBER" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="ParamType.SET" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="ParamType.STRING" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="Rule.RestartScriptRule" xml:space="preserve">
+    <value>Restart the script and run it again</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P1" xml:space="preserve">
+    <value>Wait a timeout = {0} ms, if WebElement is null, stop script</value>
+    <comment>Rule actoins text</comment>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P2" xml:space="preserve">
+    <value>Wait a timeout = {0} ms, if WebElement is null, goto operation = {1}</value>
+  </data>
+  <data name="RuleTrigger.INVALID" xml:space="preserve">
+    <value>Invalid Trigger</value>
+    <comment>Rule trigger text</comment>
+  </data>
+  <data name="RuleTrigger.NULL_ELEMENT" xml:space="preserve">
+    <value>WebElement is null</value>
+  </data>
+  <data name="RuleTrigger.OP_EXE_ERROR" xml:space="preserve">
+    <value>Operation Execute Error</value>
+  </data>
+  <data name="RuleTrigger.REQ_TIMEOUT" xml:space="preserve">
+    <value>Request Timeout</value>
+  </data>
+  <data name="SET_ACCESS.LOOP" xml:space="preserve">
+    <value>Loop</value>
+    <comment>Set item access type</comment>
+  </data>
+  <data name="SET_ACCESS.RANDOM" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="SET_ACCESS.RANDOM_NO_DUPLICATE" xml:space="preserve">
+    <value>Random No Duplicated</value>
+  </data>
+  <data name="model.Diagram.Name" xml:space="preserve">
+    <value>Diagram</value>
+  </data>
+  <data name="model.Proc.PriParam.Des" xml:space="preserve">
+    <value>Private parameters</value>
+  </data>
+  <data name="model.Proc.PriParam.Name" xml:space="preserve">
+    <value>Private</value>
+  </data>
+  <data name="model.Proc.PubParam.Des" xml:space="preserve">
+    <value>Public parameters</value>
+  </data>
+  <data name="model.Proc.PubParam.Name" xml:space="preserve">
+    <value>Public</value>
+  </data>
+  <data name="model.Rule.Name" xml:space="preserve">
+    <value>Rule</value>
+  </data>
+  <data name="model.Opc.ConGrp.Des" xml:space="preserve">
+    <value>Root Condition List for the transition</value>
+  </data>
+  <data name="model.Opc.ConGrp.Name" xml:space="preserve">
+    <value>ConditionList</value>
+  </data>
+  <data name="log.blankspace.text" xml:space="preserve">
+    <value> </value>
+    <comment>blanck space char</comment>
+  </data>
+  <data name="log.bool.false.text" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="log.bool.true.text" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="log.con.prefix" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="log.congrp.prefix" xml:space="preserve">
+    <value>ConditionGroup</value>
+  </data>
+  <data name="log.op.prefix" xml:space="preserve">
+    <value>Op</value>
+  </data>
+  <data name="log.op.text1" xml:space="preserve">
+    <value>Web Element</value>
+  </data>
+  <data name="log.op.text2" xml:space="preserve">
+    <value>No operated element</value>
+  </data>
+  <data name="log.op.text3" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="log.opc.prefix" xml:space="preserve">
+    <value>Transition</value>
+  </data>
+  <data name="log.opc.text1" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="log.opw.status.cwf" xml:space="preserve">
+    <value>Condition input ement found</value>
+    <comment>CON_WE_FOUND</comment>
+  </data>
+  <data name="log.opw.status.cwnf" xml:space="preserve">
+    <value>Condition input element not found</value>
+    <comment>CON_WE_NOT_FOUND</comment>
+  </data>
+  <data name="log.opw.status.exerr" xml:space="preserve">
+    <value>Operation execution error</value>
+    <comment>EXE_ERROR</comment>
+  </data>
+  <data name="log.opw.status.invalid" xml:space="preserve">
+    <value>Status Error</value>
+  </data>
+  <data name="log.opw.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="log.opw.status.openf" xml:space="preserve">
+    <value>Element not found</value>
+    <comment>OP_WE_NOT_FOUND</comment>
+  </data>
+  <data name="log.opw.status.opmwf" xml:space="preserve">
+    <value>Mapping element found</value>
+    <comment>OPC_PARAM_MAPPING_WE_FOUND</comment>
+  </data>
+  <data name="log.opw.status.opmwnf" xml:space="preserve">
+    <value>Mapping element not found</value>
+    <comment>OPC_PARAM_MAPPING_WE_NOT_FOUND</comment>
+  </data>
+  <data name="log.opw.status.procend" xml:space="preserve">
+    <value>Process end</value>
+    <comment>PROC_END</comment>
+  </data>
+  <data name="log.opw.status.ready" xml:space="preserve">
+    <value>Ready</value>
+    <comment>READY</comment>
+  </data>
+  <data name="log.opw.status.restart" xml:space="preserve">
+    <value>Restart</value>
+    <comment>RESTART_SCRIPT</comment>
+  </data>
+  <data name="log.opw.status.stop" xml:space="preserve">
+    <value>Stop</value>
+    <comment>STOP</comment>
+  </data>
+  <data name="log.opw.status.timeout" xml:space="preserve">
+    <value>Request timeout</value>
+    <comment>REQ_TIME_OUT</comment>
+  </data>
+  <data name="log.opw.status.upwf" xml:space="preserve">
+    <value>Parameter - WebElement found</value>
+    <comment>UPDATE_PARAM_WE_FOUND</comment>
+  </data>
+  <data name="log.opw.status.upwnf" xml:space="preserve">
+    <value>Parameter - WebElement not found </value>
+    <comment>UPDATE_PARAM_WE_NOT_FOUND</comment>
+  </data>
+  <data name="log.proc.prefix" xml:space="preserve">
+    <value>Proc</value>
+  </data>
+  <data name="log.proc.text1" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="log.proc.text2" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="log.con.param.pvtext" xml:space="preserve">
+    <value>Value</value>
+    <comment>parameter value text</comment>
+  </data>
+  <data name="log.con.param.text" xml:space="preserve">
+    <value>Parameter</value>
+    <comment>parameter name text</comment>
+  </data>
+  <data name="log.con.str.pvtext" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="log.con.str.text" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="log.con.text1" xml:space="preserve">
+    <value>Condition</value>
+    <comment>Condition text</comment>
+  </data>
+  <data name="log.con.text2" xml:space="preserve">
+    <value>Existed</value>
+    <comment>Input WE existed</comment>
+  </data>
+  <data name="log.con.text3" xml:space="preserve">
+    <value>Can not found</value>
+    <comment>Input WE not found</comment>
+  </data>
+  <data name="log.con.we.text" xml:space="preserve">
+    <value>Web Element</value>
+  </data>
+  <data name="log.con.wea.text" xml:space="preserve">
+    <value>Web Element Attribute</value>
+  </data>
+  <data name="log.con.wea.vtext" xml:space="preserve">
+    <value>Real value</value>
+  </data>
+  <data name="log.congrp.text1" xml:space="preserve">
+    <value>ConditionGroup</value>
+  </data>
+  <data name="log.congrp.text2" xml:space="preserve">
+    <value>Undefined</value>
+  </data>
+  <data name="CONDITION.STR_NOT_CONTAIN" xml:space="preserve">
+    <value>Not Contain</value>
+    <comment>String compare pattern</comment>
+  </data>
+  <data name="CONDITION.STR_NOT_ENDWIDTH" xml:space="preserve">
+    <value>Not End With</value>
+  </data>
+  <data name="CONDITION.STR_NOT_FULLMATCH" xml:space="preserve">
+    <value>Not Full Match</value>
+  </data>
+  <data name="CONDITION.STR_NOT_STARTWITH" xml:space="preserve">
+    <value>Not Start With</value>
+  </data>
+  <data name="ParamCmd.assign.text" xml:space="preserve">
+    <value>Mapping</value>
+    <comment>Parameter command type - Assign text</comment>
+  </data>
+  <data name="ParamCmd.setadd.text" xml:space="preserve">
+    <value>Add Set Item</value>
+    <comment>Parameter command type - UPDATE_SET_ADD text</comment>
+  </data>
+  <data name="ParamCmd.setdel.text" xml:space="preserve">
+    <value>Remove Set Item</value>
+  </data>
+  <data name="mapping.src.type.const.text" xml:space="preserve">
+    <value>Constant</value>
+    <comment>Mapping source type text - const</comment>
+  </data>
+  <data name="model.Expression.des" xml:space="preserve">
+    <value>Expression inputs should be the same type</value>
+  </data>
+  <data name="model.Expression.name" xml:space="preserve">
+    <value>Expression</value>
+  </data>
+  <data name="model.GF.name" xml:space="preserve">
+    <value>UtilFunction</value>
+  </data>
+  <data name="gf.category.num" xml:space="preserve">
+    <value>Number Function</value>
+  </data>
+  <data name="gf.category.str" xml:space="preserve">
+    <value>String Function</value>
+    <comment>GlobalFunction string command category text</comment>
+  </data>
+  <data name="gf.num.get_avg.des" xml:space="preserve">
+    <value>Get average value of all the numbers</value>
+    <comment>NUM_GET_AVG</comment>
+  </data>
+  <data name="gf.num.get_avg.name" xml:space="preserve">
+    <value>GetAverage</value>
+    <comment>NUM_GET_AVG</comment>
+  </data>
+  <data name="gf.num.get_max.des" xml:space="preserve">
+    <value>Get the max number in the list </value>
+    <comment>NUM_GET_MAX</comment>
+  </data>
+  <data name="gf.num.get_max.name" xml:space="preserve">
+    <value>GetMax</value>
+    <comment>NUM_GET_MAX</comment>
+  </data>
+  <data name="gf.num.get_min.des" xml:space="preserve">
+    <value>Get the minimum number in the list</value>
+    <comment>NUM_GET_MIN</comment>
+  </data>
+  <data name="gf.num.get_min.name" xml:space="preserve">
+    <value>GetMin</value>
+    <comment>NUM_GET_MIN</comment>
+  </data>
+  <data name="gf.num.get.param" xml:space="preserve">
+    <value>A number </value>
+    <comment>NUM_GET_MIN parameter </comment>
+  </data>
+  <data name="gf.str.get_by_bse.des" xml:space="preserve">
+    <value>Get a substring from source string that between Start and End string</value>
+    <comment>STR_GET_BTN_START_END</comment>
+  </data>
+  <data name="gf.str.get_by_bse.name" xml:space="preserve">
+    <value>SubStringBetweenStart-End</value>
+    <comment>STR_GET_BTN_START_END</comment>
+  </data>
+  <data name="gf.str.get_by_bse.p0" xml:space="preserve">
+    <value>Source string that will be operated</value>
+    <comment>STR_GET_BTN_START_END param 1</comment>
+  </data>
+  <data name="gf.str.get_by_bse.p1" xml:space="preserve">
+    <value>Start string, the new between-substring's start string(Not inlucded in the substring)</value>
+    <comment>STR_GET_BTN_START_END param 2</comment>
+  </data>
+  <data name="gf.str.get_by_bse.p2" xml:space="preserve">
+    <value>Start string, the new between-substring's end string(Not inlucded in the substring)</value>
+    <comment>STR_GET_BTN_START_END param 3</comment>
+  </data>
+  <data name="gf.str.get_by_se.des" xml:space="preserve">
+    <value>Get a substring from source string that start with Start string and end with End string</value>
+    <comment>STR_GET_BY_START_END</comment>
+  </data>
+  <data name="gf.str.get_by_se.name" xml:space="preserve">
+    <value>SubstringWithStart-End</value>
+    <comment>STR_GET_BY_START_END</comment>
+  </data>
+  <data name="gf.str.get_by_se.p0" xml:space="preserve">
+    <value>Source string that will be operated</value>
+    <comment>STR_GET_BY_START_END param 1</comment>
+  </data>
+  <data name="gf.str.get_by_se.p1" xml:space="preserve">
+    <value>Start string, the new substring will start with</value>
+    <comment>STR_GET_BY_START_END param 2</comment>
+  </data>
+  <data name="gf.str.get_by_se.p2" xml:space="preserve">
+    <value>End string, the new substring will end with</value>
+    <comment>STR_GET_BY_START_END param 3</comment>
+  </data>
+  <data name="gf.category.number" xml:space="preserve">
+    <value>Number Manipulation</value>
+    <comment>GlobalFunction category - Number</comment>
+  </data>
+  <data name="gf.category.string" xml:space="preserve">
+    <value>String Manipulation</value>
+    <comment>GlobalFunction category - String</comment>
+  </data>
+  <data name="eng.run.status.finish.text" xml:space="preserve">
+    <value>~~~~~~~~~~~~~~~~ Script { {0} } execution finished ~~~~~~~~~~~~~~~~~~~~~~~~~~~</value>
+  </data>
+  <data name="RuleTrigger.NO_NEXT_OP_FOUND" xml:space="preserve">
+    <value>No Next Operation Found</value>
+  </data>
+  <data name="Rule.GotoOperationRule" xml:space="preserve">
+    <value>Go to the next operation</value>
+  </data>
+  <data name="Rule.GotoOperationRule.P1" xml:space="preserve">
+    <value>Next to-be executed operation</value>
+  </data>
+  <data name="log.exe.exp.text1" xml:space="preserve">
+    <value>Warning: There maybe a configuration mistakes in the script, please referrence the log and check rules and link's conditions</value>
+  </data>
+  <data name="valid.sroot.version.msg1" xml:space="preserve">
+    <value>New version is invalid, version format is like "1.0.0.1"</value>
+  </data>
+  <data name="valid.sroot.version.msg2" xml:space="preserve">
+    <value>New version is invalid, version format should be 4 number fields.</value>
+  </data>
+  <data name="valid.sroot.version.msg3" xml:space="preserve">
+    <value>New version is invalid, version 4 fields must be number.</value>
+  </data>
+  <data name="valid.sroot.version.msg4" xml:space="preserve">
+    <value>New version should be bigger than current version.</value>
+  </data>
+  <data name="log.req.url.violation.text1" xml:space="preserve">
+    <value>Requested url violation, please check your trusted urls and whether security enabled. url = </value>
+  </data>
+  <data name="log.debug.cmd.stop.text1" xml:space="preserve">
+    <value>Script is terminated by stop command</value>
+  </data>
+  <data name="ParamType.DATETIME" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="eng.op.update.err.msg1" xml:space="preserve">
+    <value>Update parameters error</value>
+  </data>
+  <data name="log.op.update.prefix" xml:space="preserve">
+    <value>Update Parameters</value>
+    <comment>Update Operation parameters</comment>
+  </data>
+  <data name="eng.opc.update.err.msg1" xml:space="preserve">
+    <value>Update link's target process parameters error</value>
+  </data>
+  <data name="log.cmd.after.text" xml:space="preserve">
+    <value>after execute { {0} }</value>
+  </data>
+  <data name="log.cmd.assign.text" xml:space="preserve">
+    <value>Assign</value>
+  </data>
+  <data name="log.cmd.before.text" xml:space="preserve">
+    <value>, before execute, src={ {0} }, target={ {1} },</value>
+  </data>
+  <data name="log.cmd.prefix" xml:space="preserve">
+    <value>Command - </value>
+  </data>
+  <data name="log.mapping.err.text1" xml:space="preserve">
+    <value>Error ! Web Element {0} can not be found.</value>
+  </data>
+  <data name="log.opc.update.prefix" xml:space="preserve">
+    <value>Update process parameters</value>
+  </data>
+  <data name="eng.run.status.start.text" xml:space="preserve">
+    <value>~~~~~~~~~~~~~~~~ Script { {0} } execution started  ~~~~~~~~~~~~~~~~~~~~~~~~~~~</value>
+  </data>
+  <data name="valid.be.des.len.exceed.msg" xml:space="preserve">
+    <value> description length exceed, max = {0}.</value>
+  </data>
+  <data name="valid.model.err.msg1" xml:space="preserve">
+    <value>Invalid element type.</value>
+  </data>
+  <data name="valid.op.elem.msg" xml:space="preserve">
+    <value>Operated element can not be null, name={ {0} }</value>
+  </data>
+  <data name="valid.op.input.msg1" xml:space="preserve">
+    <value>Operation { {0} } input is null. </value>
+  </data>
+  <data name="valid.op.input.msg2" xml:space="preserve">
+    <value>Operation { {0} } input should be a parameter, number or string.</value>
+  </data>
+  <data name="valid.op.opc.msg1" xml:space="preserve">
+    <value>Operation { {0} } should has at least one link to another operation or process</value>
+  </data>
+  <data name="valid.op.time.msg1" xml:space="preserve">
+    <value>Operation { {0} } wait time format error.</value>
+  </data>
+  <data name="valid.op.time.msg2" xml:space="preserve">
+    <value>Operation { {0} } Execute time format error, format should like : HH:mm:ss</value>
+  </data>
+  <data name="valid.proc.time.msg1" xml:space="preserve">
+    <value>Process { {0} } wait time format error.</value>
+  </data>
+  <data name="valid.proc.time.msg2" xml:space="preserve">
+    <value>Process { {0} } Execute time format error, format should like : HH:mm:ss</value>
+  </data>
+  <data name="valid.sroot.tgt.url.msg1" xml:space="preserve">
+    <value>Script target URL is empty.</value>
+  </data>
+  <data name="valid.sroot.tgt.url.msg2" xml:space="preserve">
+    <value>Script target URL length exceed, max ={0}, url ={ {1} }</value>
+  </data>
+  <data name="valid.sroot.urls.msg1" xml:space="preserve">
+    <value>There is an empty url in the trust URL list.</value>
+  </data>
+  <data name="valid.sroot.urls.msg2" xml:space="preserve">
+    <value>There is an trusted URL { {0} } exceed the max length, max = {1} . </value>
+  </data>
+  <data name="valid.sroot.urls.msg3" xml:space="preserve">
+    <value>URL must start with http:// or https://, url ={ {0} } </value>
+  </data>
+  <data name="valid.wea.pattern.msg1" xml:space="preserve">
+    <value>Attribute pattern is invalid, name = {0}</value>
+  </data>
+  <data name="valid.wea.pattern.msg2" xml:space="preserve">
+    <value>Attribute pattern value should not be empty, name = {0}. </value>
+  </data>
+  <data name="model.ParamCmd.des" xml:space="preserve">
+    <value>Mapping a value into a Parameter</value>
+  </data>
+  <data name="model.ParamCmd.name" xml:space="preserve">
+    <value>Mapping</value>
+  </data>
+  <data name="valid.be.name.exceed.msg" xml:space="preserve">
+    <value> name exceed max length, max = {0}</value>
+  </data>
+  <data name="valid.be.name.msg1" xml:space="preserve">
+    <value> name contains invalid chars, invalid chars : </value>
+  </data>
+  <data name="valid.be.name.msg2" xml:space="preserve">
+    <value> name = { {0} } already existed</value>
+  </data>
+  <data name="valid.be.null.msg" xml:space="preserve">
+    <value> can not be null</value>
+  </data>
+  <data name="valid.be.null.msg1" xml:space="preserve">
+    <value> name is empty</value>
+  </data>
+  <data name="valid.cmd.assign.msg1" xml:space="preserve">
+    <value>For Assign command, target parameter must be String or Number type</value>
+  </data>
+  <data name="valid.cmd.input.msg1" xml:space="preserve">
+    <value>Command source input is null</value>
+  </data>
+  <data name="valid.cmd.input.msg2" xml:space="preserve">
+    <value>Command target input is null</value>
+  </data>
+  <data name="valid.cmd.set.msg1" xml:space="preserve">
+    <value>For Set command, Target parameter must be a Set parameter type</value>
+  </data>
+  <data name="valid.cmd.set.msg2" xml:space="preserve">
+    <value>For Set command, mapping source should be a Number value</value>
+  </data>
+  <data name="valid.cmd.set.msg3" xml:space="preserve">
+    <value>For Set command, mapping source should be a Time value</value>
+  </data>
+  <data name="valid.con.msg1" xml:space="preserve">
+    <value>Condition { {0} } Input1 should be a WebElement or WebElementAttribute or a Parameter</value>
+  </data>
+  <data name="valid.con.msg2" xml:space="preserve">
+    <value>Condition { {0} } Input2 should be empty</value>
+  </data>
+  <data name="valid.con.msg3" xml:space="preserve">
+    <value>Condition { {0} } Input{1} should be a number or number type parameter</value>
+  </data>
+  <data name="valid.con.set.msg1" xml:space="preserve">
+    <value>Condition { {0} } is a Set pattern, Input1 should be a Set Parameter</value>
+  </data>
+  <data name="valid.con.set.msg2" xml:space="preserve">
+    <value>Condition { {0} } is a Set pattern, Input2 shouldn't be empty</value>
+  </data>
+  <data name="valid.con.str.msg1" xml:space="preserve">
+    <value>Condition { {0} } Input{1} should not be empty</value>
+  </data>
+  <data name="valid.con.time.msg1" xml:space="preserve">
+    <value>Condition { {0} } Input{1} should be a Time value</value>
+  </data>
+  <data name="valid.exp.input.left.msg1" xml:space="preserve">
+    <value>Expression left input is null</value>
+  </data>
+  <data name="valid.exp.num.div.msg1" xml:space="preserve">
+    <value>For a / operator, Right input should not be zero</value>
+  </data>
+  <data name="valid.exp.num.msg1" xml:space="preserve">
+    <value>Expression Left input should be a number</value>
+  </data>
+  <data name="valid.exp.num.msg2" xml:space="preserve">
+    <value>Expression Right input should be a number</value>
+  </data>
+  <data name="valid.exp.operator.msg1" xml:space="preserve">
+    <value>Expression Operator error, for {0} type, only {1} allowed</value>
+  </data>
+  <data name="valid.exp.right.left.msg1" xml:space="preserve">
+    <value>Expression right input is null</value>
+  </data>
+  <data name="valid.exp.time.msg1" xml:space="preserve">
+    <value>Expression Left input should be a time value</value>
+  </data>
+  <data name="valid.exp.time.msg2" xml:space="preserve">
+    <value>Expression Right input should be a time value</value>
+  </data>
+  <data name="valid.param.set.msg1" xml:space="preserve">
+    <value>Parameter { {0} } is Set type with Number, all items should be a number</value>
+  </data>
+  <data name="valid.param.time.msg1" xml:space="preserve">
+    <value>Parameter { {0} } time format error, format should like : HH:mm:ss</value>
+  </data>
+  <data name="valid.param.value.msg1" xml:space="preserve">
+    <value>Parameter { {0} } value is empty</value>
+  </data>
+  <data name="valid.param.value.msg2" xml:space="preserve">
+    <value>Parameter { {0} } is Number type, value should be a number </value>
+  </data>
+  <data name="valid.rule.goto.p1.err1" xml:space="preserve">
+    <value>Rule parameter "NextOp" should be an Operation/Process</value>
+  </data>
+  <data name="valid.rule.WNE.p1.err1" xml:space="preserve">
+    <value>Rule parameter "Timeout" should be a nubmer</value>
+  </data>
+  <data name="valid.rule.WNE.p2.err1" xml:space="preserve">
+    <value>Rule parameter "NextOp" should be an Operation/Process</value>
+  </data>
+  <data name="valid.set.item.msg1" xml:space="preserve">
+    <value> Set Item value is empty</value>
+  </data>
+  <data name="valid.set.item.msg2" xml:space="preserve">
+    <value> Set item { {0} } should be a number type</value>
+  </data>
+  <data name="valid.set.item.msg3" xml:space="preserve">
+    <value> Set item should be a number type</value>
+  </data>
+  <data name="valid.set.item.msg4" xml:space="preserve">
+    <value> Set item { {0} } should be a string type</value>
+  </data>
+  <data name="valid.set.item.msg5" xml:space="preserve">
+    <value> Set item type not supported, type = { {0} }</value>
+  </data>
+  <data name="valid.cmd.input.param.msg1" xml:space="preserve">
+    <value>Command source can not be a sensitive parameter</value>
+  </data>
+  <data name="valid.con.input.param.msg1" xml:space="preserve">
+    <value>Condition { {0} } Input{1} can not be a sensitive parameter</value>
+  </data>
+  <data name="valid.exp.input.param.msg1" xml:space="preserve">
+    <value>Expression Input{1} can not be a sensitive parameter</value>
+  </data>
+  <data name="valid.gf.param.msg1" xml:space="preserve">
+    <value>Parameter can not be null</value>
+  </data>
+  <data name="valid.gf.param.msg3" xml:space="preserve">
+    <value>Sensitive parameter can not be used as {0} parameter</value>
+  </data>
+  <data name="valid.gf.type.msg1" xml:space="preserve">
+    <value>Type and command doesn't match.</value>
+  </data>
+  <data name="valid.gf.type.msg2" xml:space="preserve">
+    <value>Parameter should be a number object. index = {0}</value>
+  </data>
+  <data name="valid.param.sensitive.msg1" xml:space="preserve">
+    <value>Parameter { {0} } can only be used to password WebElement</value>
+  </data>
+  <data name="valid.param.sensitive.msg2" xml:space="preserve">
+    <value>Parameter { {0} } can only be used for one Operation with Password Element</value>
+  </data>
+  <data name="valid.we.pwd.msg1" xml:space="preserve">
+    <value>A password Element { {0} } can only be used for one Operation</value>
+  </data>
+  <data name="gf.str.split.des" xml:space="preserve">
+    <value>Split the source into parameters</value>
+    <comment>STR_SPLIT</comment>
+  </data>
+  <data name="gf.str.split.name" xml:space="preserve">
+    <value>Split</value>
+    <comment>STR_SPLIT</comment>
+  </data>
+  <data name="gf.str.split.p0" xml:space="preserve">
+    <value>Src to be splited</value>
+  </data>
+  <data name="gf.str.split.p1" xml:space="preserve">
+    <value>spliter</value>
+  </data>
+  <data name="gf.str.split.pn" xml:space="preserve">
+    <value>Save the substring in order</value>
+  </data>
+</root>

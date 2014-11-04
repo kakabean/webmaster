@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3841DA57-C0C0-4BB1-A4F2-96FA12AC0652}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>lib</RootNamespace>
+    <AssemblyName>lib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="config\ConfigUtil.cs" />
+    <Compile Include="engine\AccessCtrl.cs" />
+    <Compile Include="engine\Events.cs" />
+    <Compile Include="engine\LangUtil.cs" />
+    <Compile Include="engine\CSManager.cs" />
+    <Compile Include="engine\Logger.cs" />
+    <Compile Include="engine\ModelValidation.cs" />
+    <Compile Include="engine\ParamCmdUtil.cs" />
+    <Compile Include="gf\GFManager.cs" />
+    <Compile Include="hooks\CrossFrameIE.cs" />
+    <Compile Include="hooks\MouseHook.cs" />
+    <Compile Include="hooks\MouseHookEventArgs.cs" />
+    <Compile Include="hooks\WinHook.cs" />
+    <Compile Include="HotKeyUtil.cs" />
+    <Compile Include="LogUtil.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="rule\GotoOperationRule.cs" />
+    <Compile Include="rule\RestartScriptRule.cs" />
+    <Compile Include="rule\RuleUtil.cs" />
+    <Compile Include="rule\WaitUntilNullElemFindRule.cs" />
+    <Compile Include="ui\browser\BrowserExtendedNavigatingEventArgs.cs" />
+    <Compile Include="ui\browser\UnsafeNativeMethods.cs" />
+    <Compile Include="ui\browser\UrlContext.cs" />
+    <Compile Include="ui\browser\WebBrowserEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ui\EditorModels.cs" />
+    <Compile Include="engine\CapturedElement.cs" />
+    <Compile Include="engine\CaptureUtil.cs" />
+    <Compile Include="engine\Constants.cs" />
+    <Compile Include="engine\CoverBox.cs" />
+    <Compile Include="engine\Exceptions.cs" />
+    <Compile Include="engine\ModelFactory.cs" />
+    <Compile Include="engine\ModelManager.cs" />
+    <Compile Include="engine\ScriptModel.cs" />
+    <Compile Include="engine\UserProfile.cs" />
+    <Compile Include="engine\ViewModel.cs" />
+    <Compile Include="engine\WebEngine.cs" />
+    <Compile Include="engine\WebUtil.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="lang\Resource.en-US.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lang\Resource.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSHTML">
+      <Guid>{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}</Guid>
+      <VersionMajor>4</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config\userconfig.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="rule\RuleConfig.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetDir)\$(TargetFileName)" "$(SolutionDir)\build"
+del /F/Q "$(SolutionDir)\build\en-US\lib.resources.dll"
+del /F/Q "$(SolutionDir)\build\zh-CN\lib.resources.dll"
+copy "$(TargetDir)\en-US\lib.resources.dll" "$(SolutionDir)\build\en-US\"
+copy "$(TargetDir)\zh-CN\lib.resources.dll" "$(SolutionDir)\build\zh-CN\"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

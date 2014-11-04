@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E4785199-6D30-4541-8754-2685392CBA2D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>com</RootNamespace>
+    <AssemblyName>com</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutDlg.Designer.cs">
+      <DependentUpon>AboutDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComboBoxEx.Designer.cs">
+      <DependentUpon>ComboBoxEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomPanel.Designer.cs">
+      <DependentUpon>CustomPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LoginDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginDialog.Designer.cs">
+      <DependentUpon>LoginDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBoxEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBoxEx.Designer.cs">
+      <DependentUpon>MessageBoxEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="script\AddURLDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="script\AddURLDialog.Designer.cs">
+      <DependentUpon>AddURLDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="script\ParamConstValueEditDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="script\ParamConstValueEditDialog.Designer.cs">
+      <DependentUpon>ParamConstValueEditDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="script\GlobalParamConfigView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="script\GlobalParamConfigView.Designer.cs">
+      <DependentUpon>GlobalParamConfigView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="script\ParamSetEditDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="script\ParamSetEditDialog.Designer.cs">
+      <DependentUpon>ParamSetEditDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="script\ParamSetItemDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="script\ParamSetItemDialog.Designer.cs">
+      <DependentUpon>ParamSetItemDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="script\ScriptCommonInfoView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="script\ScriptCommonInfoView.Designer.cs">
+      <DependentUpon>ScriptCommonInfoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="script\UIConstants.cs" />
+    <Compile Include="script\UIUtils.cs" />
+    <Compile Include="script\UserScriptListDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="script\UserScriptListDlg.Designer.cs">
+      <DependentUpon>UserScriptListDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="table\TabControlEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="table\TabControlEx.Designer.cs">
+      <DependentUpon>TabControlEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="table\TabHeader.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="table\TabHeader.Designer.cs">
+      <DependentUpon>TabHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="table\TabPageEx.cs" />
+    <Compile Include="UILangUtil.cs" />
+    <Compile Include="update\UpdateUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutDlg.resx">
+      <DependentUpon>AboutDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutDlg.zh-CN.resx">
+      <DependentUpon>AboutDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomPanel.resx">
+      <DependentUpon>CustomPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lang\UIResource.en-US.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lang\UIResource.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginDialog.resx">
+      <DependentUpon>LoginDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginDialog.zh-CN.resx">
+      <DependentUpon>LoginDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBoxEx.resx">
+      <DependentUpon>MessageBoxEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="script\AddURLDialog.resx">
+      <DependentUpon>AddURLDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="script\AddURLDialog.zh-CN.resx">
+      <DependentUpon>AddURLDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="script\GlobalParamConfigView.zh-CN.resx">
+      <DependentUpon>GlobalParamConfigView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="script\ParamConstValueEditDialog.resx">
+      <DependentUpon>ParamConstValueEditDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="script\ParamConstValueEditDialog.zh-CN.resx">
+      <DependentUpon>ParamConstValueEditDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="script\GlobalParamConfigView.resx">
+      <DependentUpon>GlobalParamConfigView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="script\ParamSetEditDialog.resx">
+      <DependentUpon>ParamSetEditDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="script\ParamSetEditDialog.zh-CN.resx">
+      <DependentUpon>ParamSetEditDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="script\ParamSetItemDialog.resx">
+      <DependentUpon>ParamSetItemDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="script\ParamSetItemDialog.zh-CN.resx">
+      <DependentUpon>ParamSetItemDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="script\ScriptCommonInfoView.resx">
+      <DependentUpon>ScriptCommonInfoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="script\ScriptCommonInfoView.zh-CN.resx">
+      <DependentUpon>ScriptCommonInfoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="script\UserScriptListDlg.resx">
+      <DependentUpon>UserScriptListDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="table\TabControlEx.resx">
+      <DependentUpon>TabControlEx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\lib\lib.csproj">
+      <Project>{3841DA57-C0C0-4BB1-A4F2-96FA12AC0652}</Project>
+      <Name>lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\att16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close12dis.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close12en.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\op_url16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addItem16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moveup16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movedown16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browser16.png" />
+    <None Include="Resources\browser_48.png" />
+    <Content Include="update\update.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetDir)\$(TargetFileName)" "$(SolutionDir)\build"
+del /F/Q "$(SolutionDir)\build\en-US\com.resources.dll"
+del /F/Q "$(SolutionDir)\build\zh-CN\com.resources.dll"
+copy "$(TargetDir)\en-US\com.resources.dll" "$(SolutionDir)\build\en-US\"
+copy "$(TargetDir)\zh-CN\com.resources.dll" "$(SolutionDir)\build\zh-CN\"
+copy "$(ProjectDir)\update\update.xml" "$(SolutionDir)\build"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

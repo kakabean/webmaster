@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="wePage.Text" xml:space="preserve">
+    <value>网页元素</value>
+  </data>
+  <data name="tsmiNewWEG.Text" xml:space="preserve">
+    <value>新建组</value>
+  </data>
+  <data name="tsmEditWE.Text" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="tsmiDelete.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="tsmi_Advanced.Text" xml:space="preserve">
+    <value>高级</value>
+  </data>
+  <data name="tsmi_Advanced.ToolTipText" xml:space="preserve">
+    <value>为元素绑定参数</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cms_wetree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 104</value>
+  </data>
+  <data name="weLVImgList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADi
+        FAAAAk1TRnQBSQFMAgEBDwEAAcgBBAHIAQQBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAAUADAAEBAQABCAYAARAYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/xsAAXQBTAF0DQABdAFM
+        AXQdAAF0AUwBdAwAAVIDdAFSCwABUgN0AVIbAAFSA3QBUgoABXQBegF0CQAFdAF6AXQZAAV0AXoBdAMA
+        BksBTAR0AXoBTAMABksBTAR0AXoBTBMABksBTAR0AXoBTAIAAUsGegd0AgABSwZ6B3QSAAFLBnoHdAIA
+        AUwHmgFSA5kBUgMAAUwHmgFSA5kBUhMAAUwHmgFSA5kBUgMAAUwImgF0AUwBdAFSAwABTAiaAXQBTAF0
+        AVITAAFMCJoBdAFMAXQBUgMAAVILmgFSAwABUguaAVITAAFSC5oBUgMAAVILwwFSAwABUgfDAZkFUgGZ
+        EQABUgvDAVIDAAFSCMMBlANGAZQCAAFSB8MBUgKaAXQCmgFSEQABUgvDAVIDAAFSB8MBlAFGAZQBbwGU
+        AUYBlAEAAVIHwwF0AZoBegEjAXoBmgF0EQABUgvDAVIDAAFSAqACmgJ5AVIBRgGUAf8BlAH/AZQBRgEA
+        AVICoAKaAnkBUgF5AXoBmgFSAZoBegF5EQABUgKgApoCeQVSBQABTAT/AUwBAAFGAW8BlAH/AZQBbwFG
+        AgABTAT/AUwCAAF0AZoBIwGaAXQTAAFMBP8BTAsABFICAAFGAZQB/wGUAf8BlAFGAwAEUgMAApoBIwKa
+        FAAEUhIAAZQBRgGUAW8BlAFGAZQLAAF0AcMBdCwAAZQDRgGUDAABmgF0AZobAAOLPAABiwOzAYs6AAGL
+        BbQBixYAARoBdAJSAXQBGgoAARoBdAJSAXQBGgcABksBiwW0AYsHAAEaAXQCUgF0ARoIAAF0AVIDdAF5
+        AnQIAAF0AVIDdAF5AnQFAAFLBnoBiwW0AYsGAAF0AVIDdAF5AnQGAAN0AXkDdAGZAXQBmQYAA3QBeQN0
+        AZkBdAGZBAABTAeaAYsDtAGLBgADdAF5A3QBmQF0AZkFAAd0AnkBdAYAB3QCeQF0BAABTAiaBIsGAAd0
+        AnkBdAUAAVIGdAJ5AVIGAAFSBnQCeQFSBAABUguaAVIGAAFSBnQCeQFSBQABUgZ0AnkBUgYAAVIGdAJ5
+        AVIEAAFSCMMBmQVSAZkDAAFSBnQCeQFSBQAHdAJ5AXQGAAd0AZkFUgGZAVIIwwFSApoBdAKaAVIDAAd0
+        AnkBdAUAAnQCmQJ5AZkBeQGUA0YBlAMAAnQCmQJ5AZkBUgKaAXQCmgJSCMMBdAGaAXoBIwF6AZoBdAMA
+        AnQCmQJ5AZkBegF0AZkGAAJ0AZkCmgGZAZQBRgGUAW8BlAFGAZQDAAJ0AZkCmgGZAXQBmgF6ASMBegGa
+        AXQBUgKgApoCeQJSAXkBegGaAVIBmgF6AXkEAAJ0AZkCmgGZAnQIAAGZBHQBRgGUAf8BlAH/AZQBRgQA
+        AZkEdAF5AXoBmgFSAZoBegF5AQABTAT/AUwDAAF0AZoBIwGaAXQGAAGZBHQBmQ4AAUYBbwGUAf8BlAFv
+        AUYKAAF0AZoBIwGaAXQDAARSBAACmgEjApoaAAFGAZQB/wGUAf8BlAFGCgACmgEjApoMAAF0AcMBdBsA
+        AZQBRgGUAW8BlAFGAZQLAAF0AcMBdA0AAZoBdAGaHAABlANGAZQMAAGaAXQBmjsAA4suAAOLCwABiwOz
+        AYsHAAEJBIsBCQoAAQkEiwEJDwABiwOzAYsJAAGLBbQBiwUAAbQBiwS0AYsBtAgAAbQBiwS0AYsBtA0A
+        AYsFtAGLAgAGSwGLBbQBiwQAAQkBiwG0BLMBtAGLAQkGAAEJAYsBtASzAbQBiwEJBgAGSwGLBbQBiwEA
+        AUsGegGLBbQBiwQACosGAAqLBQABSwZ6AYsFtAGLAQABTAeaAYsDtAGLBQAKiwYACosFAAFMB5oBiwO0
+        AYsCAAFMCJoEiwUACosGAAqLBQABTAiaBIsCAAFSC5oBUgUACrQGAAe0AZkFUgGZAQABUguaAVICAAFS
+        C8MBUgUAAQkBtAG7BLQBuwGUA0YBlAMAAQkBtAG7BLQBUgKaAXQCmgFSAQABUgvDAVICAAFSCcMBlANG
+        AZQEAAG1AbQEuwGUAUYBlAFvAZQBRgGUAwABtQG0BLsBdAGaAXoBIwF6AZoBdAEAAVILwwFSAgABUgjD
+        AZQBRgGUAW8BlAFGAZQEAAHwBLQBRgGUAf8BlAH/AZQBRgQAAfAEtAF5AXoBmgFSAZoBegF5AQABUgvD
+        AVICAAFSAqACmgJ5AlIBRgGUAf8BlAH/AZQBRgkAAUYBbwGUAf8BlAFvAUYKAAF0AZoBIwGaAXQCAAFS
+        AqACmgJ5BVIEAAFMBP8BTAIAAUYBbwGUAf8BlAFvAUYJAAFGAZQB/wGUAf8BlAFGCgACmgEjApoDAAFM
+        BP8BTAoABFIDAAFGAZQB/wGUAf8BlAFGCQABlAFGAZQBbwGUAUYBlAsAAXQBwwF0BQAEUhIAAZQBRgGU
+        AW8BlAFGAZQKAAGUA0YBlAwAAZoBdAGaHAABlANGAZQBAAH/ARoBUgkrAVIBGwIAAf8BGgFSCSsBUgEb
+        AgAB/wEaAVIJKwFSARsSAAGZAVIJmgNSAf8BAAGZAVIJmgNSAf8BAAGZAVIJmgNSAf8RAAFSCZoCUgHD
+        AVIBmQEAAVIJmgJSAcMBUgGZAQABUgmaAlIBwwFSAZkRAAFSCcMBMQFZAZoBeQFSAQABUgnDATEBWQGa
+        AXkBUgEAAVIJwwExAVkBmgF5AVIGAAEJBIsBCQUACisBUgJ6ARoBKwEACisBUgJ6ARoBKwEACisBUgJ6
+        ARoBKwUAAbQBiwS0AYsBtAcAAfQBMQHDB3oBwwFSBAAB9AExAcMHegHDAVIEAAH0ATEBwwd6AcMBUgQA
+        AQkBiwG0BLMBtAGLAQkGAAGZAXkBwwZ6ApoBdAQAAZkBeQHDBnoCmgF0BAABmQF5AcMGegKaAXQEAAqL
+        BQAB9AFSAcMHegHDAXQBGwMAAfQBUgHDB3oBwwF0ARsDAAH0AVIBwwd6AcMBdAEbBAAKiwUAAZkBeQHD
+        BnoBmgEaAVIB/wMAAZkBeQHDBnoBmgEaAVIB/wMAAZkBeQHDBHoBmQVSAZkDAAqLBQABUgEaB5oBwwF0
+        ARoEAAFSARoGmgGUA0YBlAMAAVIBGgWaAVICmgF0ApoBUgMACrQFAAErAcMHmgHDATEB9gQAASsBwwWa
+        AZQBRgGUAW8BlAFGAZQCAAErAcMFmgF0AZoBegEjAXoBmgF0AwABCQG0AbsEtAG7AbQBCQUAATEBwwea
+        AcMBMQUAATEBwwWaAUYBlAH/AZQB/wGUAUYCAAExAcMFmgF5AXoBmgFSAZoBegF5BAABtQG0BLsBtAG1
+        BgABUgEaAcMGmgHDATEFAAFSARoBwwSaAUYBbwGUAf8BlAFvAUYCAAFSARoBwwWaAXQBmgEjAZoBdAYA
+        AfAEtAHwBwABmQF0AfYGoAHDA1IBdAIAAZkBdAH2BKABRgGUAf8BlAH/AZQBRgIAAZkBdAH2BKADmgEj
+        ApoBdBIAAf8BUgGZB/YBmQJSAZkCAAH/AVIBmQT2AZQBRgGUAW8BlAFGAZQCAAH/AVIBmQb2AXQBwwJ0
+        AZkTAAH0AZkIKwExAXQB9AMAAfQBmQUrAZQDRgGUBAAB9AGZBisBmgF0AZoBUhEAAUIBTQE+BwABPgMA
+        ASgDAAFAAwABQAMAAQEBAAEBBgABAhYAA/8BAAP/AccB/wHHAgAB/wHHAf8BgwH/AYMCAAH/AYMB/wEB
+        Af8BAQIAAf8BAQHAAQEBwAEBAgABwAEBAYABAQGAAQECAAGAAQEBgAEDAYABAwIAAYABAwGAAQMBgAED
+        AgABgAEDAYABAwGAAQMCAAGAAQMBgAEDAYADAAGAAQMBgAEBAYADAAGAAQMBgAEAAYADAAGAAQMBgAEA
+        AYADAAGAAQcBwAGAAcABwQIAAcAB/wHhAYAB4QHBAgAB4QL/AYAB/wHjAgAD/wHBAf8B4wIAAf8Bjwf/
+        AQcG/wH+AQMC/wHwAT8B8AE/AYABAwH4AR8B4AEfAeABHwEAAQMB8AEPAcABDwHAAQ8BAAEHAeABBwHA
+        AQ8BwAEPAQABBwHgAQcBwAEPAcABDwEAAQcB4AEHAcABDwHAAQ8CAAHgAQcBwAEPAcADAAHgAQcBwAEB
+        AcADAAHgAQcB4AEAAeADAAHwAQ8B8AEAAfABAAGBAcEB+AEfAf8BgAH/AcEBwwHBA/8BgAH/AcEB/wHj
+        A/8BgAH/AeMB/wHjA/8BwQH/AeMH/wGPBf8BxwH/AQcB8AE/AfABPwH/AYMB/gEDAeABHwHgAR8B/wEB
+        AYABAwHAAQ8BwAEPAcABAQEAAQMBwAEPAcABDwGAAQEBAAEHAcABDwHAAQ8BgAEDAQABBwHAAQ8BwAEP
+        AYABAwEAAQcBwAEPAcABAAGAAQMBAAEHAcABAQHAAQABgAEDAQABAQHgAQAB4AEAAYABAwIAAfABAAHw
+        AQABgAEDAgAB/wGAAf8BwQGAAQcBgQGAAf8BgAH/AcEBwAH/AcMBgAH/AYAB/wHjAeEC/wGAAf8BwQH/
+        AeMD/wHBAQABAwEAAQMBAAEDAv8BAAEBAQABAQEAAQEC/wEAAQEBAAEBAQABAQL/AQABAQEAAQEBAAEB
+        AfgBHwEAAQEBAAEBAQABAQHwAQ8B4AEBAeABAQHgAQEB4AEHAeABAQHgAQEB4AEBAeABBwHAAQEBwAEB
+        AcABAQHgAQcBwAEBAcABAQHAAQAB4AEHAcABAwHAAQEBwAEAAeABBwHAAQMBwAEAAcABAAHgAQcBwAEH
+        AcABAAHAAQAB8AEPAcABBwHAAQABwAEBAfgBHwHAAQABwAEAAcABAAL/AcABAAHAAQABwAEAAv8B4AEA
+        AeABAQHgAQEC/ws=
+</value>
+  </data>
+  <data name="paramPage.Text" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 685</value>
+  </data>
+  <data name="cms_paramTree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 76</value>
+  </data>
+  <data name="paramTV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 662</value>
+  </data>
+  <data name="tsmi_AddParam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="tsmi_AddParam.Text" xml:space="preserve">
+    <value>新建参数</value>
+  </data>
+  <data name="tsmi_AddParamGrp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="tsmi_AddParamGrp.Text" xml:space="preserve">
+    <value>新建组</value>
+  </data>
+  <data name="tsmi_paramSep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 6</value>
+  </data>
+  <data name="tsmi_ParamTVDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="tsmi_ParamTVDelete.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="tsb_Start.ToolTipText" xml:space="preserve">
+    <value>开始节点</value>
+  </data>
+  <data name="tsb_End.ToolTipText" xml:space="preserve">
+    <value>终止节点</value>
+  </data>
+  <data name="tsb_OpenURL.ToolTipText" xml:space="preserve">
+    <value>打开一个URL地址</value>
+  </data>
+  <data name="tsb_Click.ToolTipText" xml:space="preserve">
+    <value>点击</value>
+  </data>
+  <data name="tsb_Input.ToolTipText" xml:space="preserve">
+    <value>输入文字</value>
+  </data>
+  <data name="tsb_Process.ToolTipText" xml:space="preserve">
+    <value>子流程</value>
+  </data>
+  <data name="tsb_Link.Text" xml:space="preserve">
+    <value>link</value>
+  </data>
+  <data name="tsb_Link.ToolTipText" xml:space="preserve">
+    <value>根据条件跳转到下一个操作</value>
+  </data>
+  <data name="tsb_CloseDiagram.ToolTipText" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="tsb_Nop.ToolTipText" xml:space="preserve">
+    <value>空操作</value>
+  </data>
+  <data name="genPage.Text" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="conditionPage.Text" xml:space="preserve">
+    <value>条件</value>
+  </data>
+  <data name="rulePage.Text" xml:space="preserve">
+    <value>规则</value>
+  </data>
+  <data name="errPage.Text" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="logPage.Text" xml:space="preserve">
+    <value>日志</value>
+  </data>
+  <data name="cms_canvas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 54</value>
+  </data>
+  <data name="tsmiDeleteCanvasNode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 22</value>
+  </data>
+  <data name="tsmiDeleteCanvasNode.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 6</value>
+  </data>
+  <data name="tsmi_debug.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 22</value>
+  </data>
+  <data name="tsmi_debug.Text" xml:space="preserve">
+    <value>调试</value>
+  </data>
+  <data name="tsmi_debug.ToolTipText" xml:space="preserve">
+    <value>从此节点开始调试</value>
+  </data>
+</root>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <Update>
+    <Description>Mayi Browser</Description>
+    <AppId>MayiTechGroup</AppId>
+    <URL>http://www.25mayi.com/update</URL>    
+    <LastUpdate>2012-12-20</LastUpdate>
+  </Update>
+</Config>

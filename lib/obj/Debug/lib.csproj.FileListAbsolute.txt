@@ -1,0 +1,16 @@
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\bin\Debug\lib.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\bin\Debug\lib.pdb
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\bin\Debug\en-US\lib.resources.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\bin\Debug\zh-CN\lib.resources.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Debug\ResolveAssemblyReference.cache
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Debug\Interop.SHDocVw.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Debug\lib.csproj.ResolveComReference.cache
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Debug\lib.Properties.Resources.resources
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Debug\lib.lang.Resource.en-US.resources
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Debug\lib.lang.Resource.zh-CN.resources
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Debug\GenerateResource.read.1.tlog
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Debug\GenerateResource.write.1.tlog
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Debug\en-US\lib.resources.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Debug\zh-CN\lib.resources.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Debug\lib.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Debug\lib.pdb

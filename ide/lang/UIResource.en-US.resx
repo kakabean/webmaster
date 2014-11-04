@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="main.debug.text1" xml:space="preserve">
+    <value>Show Debug Panel</value>
+  </data>
+  <data name="main.debug.text2" xml:space="preserve">
+    <value>Show WebElement Panel</value>
+  </data>
+  <data name="Rule.RestartScript.P0.Name" xml:space="preserve">
+    <value>Restart Script</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P1.1.Des" xml:space="preserve">
+    <value>It will wait at most timeout ms</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P1.1.Name" xml:space="preserve">
+    <value>Timeout(ms)</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P1.Name" xml:space="preserve">
+    <value>Wait or Stop Script</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P2.1.Des" xml:space="preserve">
+    <value>It will wait at most timeout ms</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P2.1.Name" xml:space="preserve">
+    <value>Timeout(ms)</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P2.2.Des" xml:space="preserve">
+    <value>If timeout, WebElement is null, it will go to an operation</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P2.2.Name" xml:space="preserve">
+    <value>Failed Operation</value>
+  </data>
+  <data name="Rule.WaitUntilNullElemFindRule.P2.Name" xml:space="preserve">
+    <value>Wait or Go to another Operation</value>
+  </data>
+  <data name="view.op.grp1.text1" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="view.op.grp2.text2" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="view.op.label3.text1" xml:space="preserve">
+    <value>WebElement</value>
+  </data>
+  <data name="view.op.label3.text2" xml:space="preserve">
+    <value>Open Type</value>
+  </data>
+  <data name="view.rule.dup.text" xml:space="preserve">
+    <value>There is already a same rule applied on the operation/process</value>
+    <comment>duplicated rule warning box, text</comment>
+  </data>
+  <data name="view.rule.dup.title" xml:space="preserve">
+    <value>Duplicated Rule</value>
+    <comment>duplicated rule warning box, title</comment>
+  </data>
+  <data name="dlg.conInput.value.text1" xml:space="preserve">
+    <value>Attribute Ref Value</value>
+    <comment>ConditionInputDialog attribute value label text</comment>
+  </data>
+  <data name="dlg.conInput.value.text2" xml:space="preserve">
+    <value>Value</value>
+    <comment>other value label text</comment>
+  </data>
+  <data name="view.common.type.gen" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="view.common.type.Opc" xml:space="preserve">
+    <value>Transition</value>
+  </data>
+  <data name="view.common.type.ParamGrp" xml:space="preserve">
+    <value>Parameter Group</value>
+  </data>
+  <data name="view.common.type.Script" xml:space="preserve">
+    <value>Script Root</value>
+    <comment>common view type text</comment>
+  </data>
+  <data name="view.common.type.WE" xml:space="preserve">
+    <value>Web Element</value>
+  </data>
+  <data name="view.common.type.WEG" xml:space="preserve">
+    <value>Web Element Group</value>
+  </data>
+  <data name="view.we.attr.valid.text1" xml:space="preserve">
+    <value>Name is mandatory !</value>
+    <comment>WebAttributeProptires view validation msg</comment>
+  </data>
+  <data name="view.we.attr.valid.text2" xml:space="preserve">
+    <value>Table is empty, attributes info is mandatory !</value>
+  </data>
+  <data name="view.we.attr.valid.text3" xml:space="preserve">
+    <value>No attributes selected, Tag attribute is mandatory !</value>
+  </data>
+  <data name="view.wea.ce.multiline" xml:space="preserve">
+    <value>There are multilines in the cell editor, please use up/down key to navigate</value>
+    <comment>When the cell editor text box is multilines, prompt text</comment>
+  </data>
+  <data name="view.weprop.capmsg.text1" xml:space="preserve">
+    <value>The </value>
+    <comment>WebElementProperties view errors msg text</comment>
+  </data>
+  <data name="view.weprop.capmsg.text2" xml:space="preserve">
+    <value>th</value>
+  </data>
+  <data name="view.weprop.capmsg.text3" xml:space="preserve">
+    <value>1st</value>
+  </data>
+  <data name="view.weprop.capmsg.text4" xml:space="preserve">
+    <value>2nd</value>
+  </data>
+  <data name="view.weprop.capmsg.text5" xml:space="preserve">
+    <value>3rd</value>
+  </data>
+  <data name="view.weprop.capmsg.text6" xml:space="preserve">
+    <value> elements find, the </value>
+  </data>
+  <data name="view.weprop.capmsg.text7" xml:space="preserve">
+    <value> one checked.</value>
+  </data>
+  <data name="view.weprop.capmsg.text8" xml:space="preserve">
+    <value> unique element find.</value>
+  </data>
+  <data name="view.weprop.capmsg.text9" xml:space="preserve">
+    <value> No proper element find.</value>
+  </data>
+  <data name="view.weprop.submit.text" xml:space="preserve">
+    <value>Invalid Element, make sure the name is unique in raw data group!</value>
+  </data>
+  <data name="view.weprop.submit.text1" xml:space="preserve">
+    <value>Invalid Element, the name is duplicated with other element in the same level!</value>
+  </data>
+  <data name="view.weprop.update.text" xml:space="preserve">
+    <value>Select a new element in browser for updating, or Right click to cancel</value>
+  </data>
+  <data name="view.we.parent.errdlg.text" xml:space="preserve">
+    <value>Get parent element with errors, please re-capture and try again. </value>
+  </data>
+  <data name="view.we.parent.errdlg.title" xml:space="preserve">
+    <value>Get Parent Error</value>
+  </data>
+  <data name="view.we.parent.text" xml:space="preserve">
+    <value>No parent element found !</value>
+  </data>
+  <data name="view.we.sibling.errdlg.text" xml:space="preserve">
+    <value>Get sibling element with errors, please re-capture and try again. </value>
+  </data>
+  <data name="view.we.sibling.errdlg.title" xml:space="preserve">
+    <value>Next Sibling Error</value>
+  </data>
+  <data name="view.we.sibling.text" xml:space="preserve">
+    <value>No sibling element found !</value>
+  </data>
+  <data name="view.we.parent.errdlg.title1" xml:space="preserve">
+    <value>Invalid Parent Element</value>
+  </data>
+  <data name="view.we.parent.text1" xml:space="preserve">
+    <value>It has reached the top parent element !</value>
+  </data>
+  <data name="view.we.sibling.errdlg.text1" xml:space="preserve">
+    <value>Get sibling element with errors, please re-capture and try again. </value>
+  </data>
+  <data name="view.we.sibling.errdlg.title1" xml:space="preserve">
+    <value>Invalid Sibling Element</value>
+  </data>
+  <data name="view.weprop.autoref.text1" xml:space="preserve">
+    <value>Auto find proper container failed. please update by hand.</value>
+  </data>
+  <data name="dlg.mapping.header.text1" xml:space="preserve">
+    <value>Update parameters on </value>
+  </data>
+  <data name="dlg.mapping.header.text2" xml:space="preserve">
+    <value>Transition mapping from </value>
+  </data>
+  <data name="dlg.mapping.header.text3" xml:space="preserve">
+    <value>to </value>
+  </data>
+  <data name="dlg.mapping.title.op" xml:space="preserve">
+    <value>Update process parameters</value>
+    <comment>mapping dialog UI text locale</comment>
+  </data>
+  <data name="dlg.mapping.title.opc" xml:space="preserve">
+    <value>Transition parameters mapping</value>
+  </data>
+  <data name="mapping.src.const.err.msg1" xml:space="preserve">
+    <value>No value, please input a constant.</value>
+    <comment>Mapping source panel error msg text</comment>
+  </data>
+  <data name="mapping.src.const.err.msg2" xml:space="preserve">
+    <value>Invalid value, it should be a number.</value>
+  </data>
+  <data name="mapping.src.const.err.msg3" xml:space="preserve">
+    <value>Source type must be String or Number</value>
+  </data>
+  <data name="mapping.src.wea.err.msg0" xml:space="preserve">
+    <value>No available Web Element found !</value>
+  </data>
+  <data name="mapping.src.wea.err.msg1" xml:space="preserve">
+    <value>WebElementAttribute is null!</value>
+  </data>
+  <data name="mapping.src.wea.err.msg2" xml:space="preserve">
+    <value>WebElementAttribute is not a number type. </value>
+  </data>
+  <data name="mapping.src.param.err.msg0" xml:space="preserve">
+    <value>Invalid Operation/Process, please close dialog and redo mapping. </value>
+  </data>
+  <data name="mapping.src.param.err.msg1" xml:space="preserve">
+    <value>Mapping source parameter is null. </value>
+  </data>
+  <data name="mapping.src.param.err.msg2" xml:space="preserve">
+    <value>Parameter must be a number.</value>
+  </data>
+  <data name="mapping.src.exp.err.msg0" xml:space="preserve">
+    <value>Selected stub operation error, please close the dialog and redo mapping. </value>
+    <comment>Mapping source - Expression panel msg text</comment>
+  </data>
+  <data name="mapping.src.exp.err.msg1" xml:space="preserve">
+    <value>No Expression defined. </value>
+    <comment>Mapping source - Expression panel msg text</comment>
+  </data>
+  <data name="mapping.src.exp.err.msg2" xml:space="preserve">
+    <value>Input1 should be a String type. </value>
+    <comment>Mapping source - Expression panel msg text</comment>
+  </data>
+  <data name="mapping.src.exp.err.msg3" xml:space="preserve">
+    <value>Input2 should be a String type.</value>
+    <comment>Mapping source - Expression panel msg text</comment>
+  </data>
+  <data name="mapping.src.exp.err.msg4" xml:space="preserve">
+    <value>Input1 should be a Number type.</value>
+    <comment>Mapping source - Expression panel msg text</comment>
+  </data>
+  <data name="mapping.src.exp.err.msg5" xml:space="preserve">
+    <value>Input2 should be a Number type.</value>
+    <comment>Mapping source - Expression panel msg text</comment>
+  </data>
+  <data name="dlg.mapping.msg.dup" xml:space="preserve">
+    <value>Duplicated mapping, target parameter has been used in mapping list.</value>
+    <comment>Parameter mapping dialog message text - duplicate</comment>
+  </data>
+  <data name="view.log.op.end.text" xml:space="preserve">
+    <value>Operation end log</value>
+  </data>
+  <data name="view.log.proc.end.text" xml:space="preserve">
+    <value>Process end log</value>
+  </data>
+  <data name="view.log.proc.start.text" xml:space="preserve">
+    <value>Process start log</value>
+  </data>
+  <data name="view.log.selectobj.title" xml:space="preserve">
+    <value>Select an log element</value>
+  </data>
+  <data name="view.log.time.text1" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="view.log.warn.label" xml:space="preserve">
+    <value>Warning ! </value>
+  </data>
+  <data name="view.log.warn.text" xml:space="preserve">
+    <value>Do you want to remove the user log info ?</value>
+  </data>
+  <data name="view.log.item.newstr" xml:space="preserve">
+    <value>New string...</value>
+  </data>
+  <data name="mapping.src.gf.err.msg0" xml:space="preserve">
+    <value>Selected stub operation error, please close the dialog and redo mapping. </value>
+    <comment>Mapping source -GF panel msg text</comment>
+  </data>
+  <data name="mapping.src.gf.err.msg1" xml:space="preserve">
+    <value>No GlobalFunction defined. </value>
+    <comment>Mapping source - GF panel msg text</comment>
+  </data>
+  <data name="mapping.src.gf.err.msg2" xml:space="preserve">
+    <value>GlobalFunction return type doesn't match required parameter type ! </value>
+    <comment>Mapping source - GF panel msg text</comment>
+  </data>
+  <data name="mapping.src.gf.err.msg3" xml:space="preserve">
+    <value>Error, A Parameter is empty !</value>
+  </data>
+  <data name="dlg.mapping.valid.msg1" xml:space="preserve">
+    <value>No Mapping command selected ! </value>
+  </data>
+  <data name="Rule.GotoOperation.P1.0.Des" xml:space="preserve">
+    <value>Next to be operation</value>
+  </data>
+  <data name="Rule.GotoOperation.P1.0.Name" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="Rule.GotoOperation.P1.Name" xml:space="preserve">
+    <value>Go to next operation</value>
+  </data>
+  <data name="app.name.text" xml:space="preserve">
+    <value>Mayi Script IDE</value>
+  </data>
+  <data name="app.user.no.login" xml:space="preserve">
+    <value>Not Login</value>
+  </data>
+  <data name="dlg.user.logout.ask.text1" xml:space="preserve">
+    <value>Are you sure to sign off current user ?</value>
+  </data>
+  <data name="dlg.user.logout.title" xml:space="preserve">
+    <value>Warning ! </value>
+  </data>
+  <data name="user.login.text1" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="user.logout.text1" xml:space="preserve">
+    <value>Sign Off</value>
+  </data>
+  <data name="mapping.src.const.time.err.msg1" xml:space="preserve">
+    <value>Invalid time format.</value>
+  </data>
+  <data name="mapping.src.exp.err.msg6" xml:space="preserve">
+    <value>Input 1 should be a time value. </value>
+  </data>
+  <data name="mapping.src.exp.err.msg7" xml:space="preserve">
+    <value>Input 2 should be a time value.</value>
+  </data>
+  <data name="dlg.title.err.text" xml:space="preserve">
+    <value>Error !</value>
+  </data>
+  <data name="dlg.validation.error.text1" xml:space="preserve">
+    <value>Script validation error, please correct the error first. </value>
+  </data>
+  <data name="dlg.error.title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="dlg.info.title" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="dlg.warn.title" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="ide.editor.dlg.debug.stop.msg1" xml:space="preserve">
+    <value>Script is runing, please stop it first! </value>
+  </data>
+  <data name="ide.editor.dlg.debug.stop.msg2" xml:space="preserve">
+    <value>Stop script running failed, please stop it in debug panel and try again.</value>
+  </data>
+  <data name="ide.editor.dlg.save.msg1" xml:space="preserve">
+    <value>There is an active script working, do you want to save ? </value>
+  </data>
+  <data name="ide.feditor.ptree.del.msg1" xml:space="preserve">
+    <value>The group's elements was referenced {0} times, delete it will cause some function error. \n do you want to continue?</value>
+  </data>
+  <data name="ide.feditor.ptree.del.msg2" xml:space="preserve">
+    <value>The parameter was referenced {0} times, delete it will cause some function error. \n do you want to continue?</value>
+  </data>
+  <data name="ide.feditor.tree.dnd.msg1" xml:space="preserve">
+    <value>Node {0} already contains a child named {1}, do you want to replace the existed one ?</value>
+  </data>
+  <data name="ide.feditor.tree.dnd.title1" xml:space="preserve">
+    <value>Confirm Element replace</value>
+  </data>
+  <data name="ide.feditor.wetree.del.msg1" xml:space="preserve">
+    <value>The group's elements was referenced {0} times, delete it will cause some function error. \n do you want to continue?</value>
+  </data>
+  <data name="ide.feditor.wetree.del.msg2" xml:space="preserve">
+    <value>The Web Ement was referenced {0} times, delete it will cause some function error. \n do you want to continue?</value>
+  </data>
+  <data name="mapping.gf.btn.text1" xml:space="preserve">
+    <value>Add New ...</value>
+  </data>
+  <data name="view.con.valid.msg1" xml:space="preserve">
+    <value>Element name is mandatory !</value>
+  </data>
+  <data name="view.op.we.dlg.msg" xml:space="preserve">
+    <value>Please choose a WebElement as Operation input</value>
+  </data>
+  <data name="view.op.we.err.msg1" xml:space="preserve">
+    <value>Error when show the WebElement, script is null ! </value>
+  </data>
+  <data name="view.param.valid.msg1" xml:space="preserve">
+    <value>Element name is mandatory !</value>
+  </data>
+  <data name="ide.script.publish.warning" xml:space="preserve">
+    <value>Please make sure that No personal info e.g user name or password saved in the to be published script ! Confirm, Press "OK", or press "Cancel" to ignore this publish.</value>
+  </data>
+  <data name="user.login.status.msg1" xml:space="preserve">
+    <value>No user login</value>
+  </data>
+  <data name="user.login.status.msg2" xml:space="preserve">
+    <value>Welcome {0}</value>
+  </data>
+  <data name="valid.be.name.msg1" xml:space="preserve">
+    <value>Name is mandatory</value>
+  </data>
+  <data name="view.we.att.param.msg1" xml:space="preserve">
+    <value>This Element is combined with Parameter, It can not be edited here, but you can capture a new Element</value>
+  </data>
+  <data name="dlg.wea.pvalue.text1" xml:space="preserve">
+    <value>New string</value>
+  </data>
+</root>

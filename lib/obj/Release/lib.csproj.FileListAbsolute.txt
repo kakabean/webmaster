@@ -1,0 +1,16 @@
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\bin\Release\lib.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\bin\Release\lib.pdb
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\bin\Release\en-US\lib.resources.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\bin\Release\zh-CN\lib.resources.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Release\ResolveAssemblyReference.cache
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Release\Interop.SHDocVw.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Release\lib.csproj.ResolveComReference.cache
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Release\lib.Properties.Resources.resources
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Release\lib.lang.Resource.en-US.resources
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Release\lib.lang.Resource.zh-CN.resources
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Release\GenerateResource.read.1.tlog
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Release\GenerateResource.write.1.tlog
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Release\en-US\lib.resources.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Release\zh-CN\lib.resources.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Release\lib.dll
+D:\ZhangHui\mywork\WebMasterAll\solution\WebMaster\lib\obj\Release\lib.pdb

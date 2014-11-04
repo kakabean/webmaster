@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebMaster.lib.engine.BaseElement" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAgBAAEAAAAAAQABAIAAAAGAAAAAAAAEAA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebMaster.lib.engine.WebElementAttribute">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgCAAAgUEQAAAGAAAAAAACAACAKAAAAAAAAABA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebMaster.lib.engine.WebElementGroup" Collapsed="true">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAQEAAAAAAAIAAAAABAAIAAAAAAAAAAEA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebMaster.lib.engine.WebElement">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAgAhKBQQ5wUUEQABAAEAYEBAAADCAAAAAgAAAY5A=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebMaster.lib.engine.Operation">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAhkABCJAUUQEAAgCAAIAEAAQGAAAAQABAEAAAgA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebMaster.lib.engine.Process">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAhAAgAIQCAQEAEAAAAAAAAAAAAIEAAAAAAAAAACAg=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebMaster.lib.engine.OpCondition">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAgAAAoIAAAAQEAAAAAAAAAAAAAAAAAAAAAIAIAACAA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebMaster.lib.engine.Condition">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAgEACAAQEACAAAAAAQAEACAAAgAAAkIAAAAAAA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebMaster.lib.engine.ConditionGroup">
+    <Position X="10.5" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAIAgEACAQQEAGABAAAAQAAAgAAAgAAAAIAAAAAAA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebMaster.lib.engine.ScriptRoot">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>MBIkBAgRAEEgMAAIyAZIAAAAEAAgAAMAMAEDqBQFEBA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebMaster.lib.engine.Click">
+    <Position X="18.25" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAAABAAAAAABQAAAAUAAAAAAABAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebMaster.lib.engine.ParamGroup">
+    <Position X="8.5" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAoAAAAAQEAAAAAAAQAAAAAAAAAAAAAAAAIAAFA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebMaster.lib.engine.Parameter">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAAAAgBAACgQEQEogAAAEIABBAAAAAVAQAAAAkAABA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebMaster.lib.engine.OperationRule">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAABAoAEAABQFAAAAAAAAAAAAAAAAAAAAAAAAIAABQ=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebMaster.lib.engine.UserLog" Collapsed="true">
+    <Position X="18.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAgAAAAAQEAAAAAEAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebMaster.lib.engine.BEList&lt;T&gt;" Collapsed="true">
+    <Position X="18.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAgkCAAAAAAJAABAAARAQAAAAAAAAACAgAAABUAAA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="WebMaster.lib.engine.WEType" Collapsed="true">
+    <Position X="18.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAoAAAAACAAAAAAAAAEAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WebMaster.lib.engine.ParamType">
+    <Position X="6.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAEBAAAAAAAAAQAAAAAQAAAAAA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WebMaster.lib.engine.OPERATION">
+    <Position X="4.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAABAAQgAACCAAAAQAAAAiAAAA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WebMaster.lib.engine.CLICK_TYPE" Collapsed="true">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABgAAAACAAACAAAAAAEAAAAAAACAAAA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WebMaster.lib.engine.CONDITION" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAKQAACBEAAAEQEAAICQAgoAAAAAEBkAAIAAAA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WebMaster.lib.engine.RuleTrigger">
+    <Position X="14.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACACAAAAAAAAAAAAAAAAAAAAAAAABAAABAAQAAAAAA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WebMaster.lib.engine.RuleAction">
+    <Position X="14.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAQQAAAAgAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>engine\ScriptModel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
