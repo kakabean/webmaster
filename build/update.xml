@@ -3,7 +3,7 @@
   <Update>
     <Description>Mayi Browser</Description>
     <AppId>MayiTechGroup</AppId>
-    <URL>http://www.25mayi.com/update</URL>
+    <URL>http://www.autowebkit.com/update</URL>
     <version>1.0.0.0</version>
     <Files>
       <File name="browser.exe" version="1.0.0.0"></File>
